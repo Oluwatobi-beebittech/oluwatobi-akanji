@@ -36,25 +36,25 @@ const IndexPage = () => {
           <nav className="my-44 space-y-4">
             <Link
               to="/about"
-              className="text-center w-1/2 mx-auto block p-2 bg-white bg-opacity-10 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100 "
+              className="text-center mx-auto block p-2 bg-white bg-opacity-10 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100 "
             >
               <Home/>
             </Link>
             <Link
               to="/about"
-              className="text-center w-1/2 mx-auto block p-2 bg-white bg-opacity-10 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100 "
+              className="text-center mx-auto block p-2 bg-white bg-opacity-10 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100 "
             >
               <PersonPinIcon />
             </Link>
             <Link
               to="/about"
-              className="text-center w-1/2 mx-auto block p-2 bg-white bg-opacity-10 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100 "
+              className="text-center mx-auto block p-2 bg-white bg-opacity-10 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100 "
             >
               <DescriptionIcon />
             </Link>
             <Link
               to="/about"
-              className="text-center w-1/2 mx-auto block p-2 bg-white bg-opacity-10 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100 "
+              className="text-center mx-auto block p-2 bg-white bg-opacity-10 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100 "
             >
               <AppsIcon />
             </Link>
