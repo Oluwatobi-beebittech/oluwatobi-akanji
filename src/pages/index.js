@@ -15,7 +15,7 @@ import "../styles/site.css";
 // markup
 const IndexPage = () => {
   return (
-    <main className="">
+    <main className="h-full">
       <title>Oluwatobi Akanji</title>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -28,17 +28,17 @@ const IndexPage = () => {
         rel="stylesheet"
       />
 
-      <div className="flex inline">
-        <div className="bg-purple-900 w-2/12 md:hidden md:w-0 h-screen">
-        <button className="block mx-auto mt-1 p-2 bg-white bg-opacity-10 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100">
-          <MenuIcon />
-        </button>
+      <div className="flex inline h-full">
+        <div className="bg-purple-900 w-2/12 md:hidden md:w-0 h-full">
+          <button className="block mx-auto mt-1 p-2 bg-white bg-opacity-10 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100">
+            <MenuIcon />
+          </button>
           <nav className="my-44 space-y-4">
             <Link
               to="/about"
               className="text-center w-2/3 mx-auto block p-2 bg-white bg-opacity-10 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100 "
             >
-              <Home/>
+              <Home />
             </Link>
             <Link
               to="/about"
@@ -66,7 +66,7 @@ const IndexPage = () => {
             </Link>
           </nav>
         </div>
-        <div className="flex flex-wrap h-screen content-center bg-purple-900 bg-opacity-70 w-10/12 md:w-screen">
+        <div className="flex flex-wrap content-center bg-purple-900 bg-opacity-70 w-10/12 md:w-screen">
           <div className="w-full md:w-1/2"></div>
           <div className="w-full text-center md:w-1/2 md:text-left">
             <Avatar
