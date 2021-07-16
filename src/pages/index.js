@@ -66,7 +66,7 @@ const IndexPage = () => {
             </Link>
           </nav>
         </div>
-        <div className="flex flex-wrap content-center bg-purple-900 bg-opacity-70 w-10/12 md:w-screen">
+        <div className="flex flex-wrap content-center bg-purple-900 bg-opacity-70 w-10/12 md:w-screen md:h-screen ">
           <div className="w-full md:w-1/2"></div>
           <div className="w-full text-center md:w-1/2 md:text-left">
             <Avatar
