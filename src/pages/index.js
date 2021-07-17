@@ -30,7 +30,7 @@ const IndexPage = () => {
       />
 
       <div className="flex inline h-full">
-        <div className="bg-purple-900 w-2/12 md:hidden md:w-0 overflow-y-scroll">
+        <div className="hidden bg-purple-900 w-2/12 md:hidden md:w-0 overflow-y-scroll">
           
           <nav className="mt-36 space-y-4">
             <Link
@@ -65,8 +65,8 @@ const IndexPage = () => {
             </Link>
           </nav>
         </div>
-        <div className="flex flex-wrap content-center bg-purple-900 bg-opacity-70 w-10/12 md:w-screen md:h-screen ">
-          <button className="absolute top-0 mt-2 p-2 bg-purple-100 text-purple-900 rounded-lg font-bold hover:text-purple-100 hover:bg-purple-900 ">
+        <div className="w-screen flex flex-wrap content-center bg-purple-900 bg-opacity-70 md:w-screen md:h-screen ">
+          <button className="md:hidden absolute top-0 mt-2 p-2 bg-purple-100 text-purple-900 rounded-lg font-bold hover:text-purple-100 hover:bg-purple-900 ">
             <MenuIcon />
           </button>
           <div className="w-full md:w-1/2"></div>
