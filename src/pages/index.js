@@ -31,9 +31,7 @@ const IndexPage = () => {
 
       <div className="flex inline h-full">
         <div className="bg-purple-900 w-2/12 md:hidden md:w-0 overflow-y-scroll">
-          <button className="block mx-auto mt-5 p-2 bg-yellow-400 bg-opacity-1k0 text-purple-900 rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100">
-            <CloseIcon />
-          </button>
+          
           <nav className="mt-36 space-y-4">
             <Link
               to="/about"
@@ -68,6 +66,9 @@ const IndexPage = () => {
           </nav>
         </div>
         <div className="flex flex-wrap content-center bg-purple-900 bg-opacity-70 w-10/12 md:w-screen md:h-screen ">
+          <button className="absolute top-0 mt-2 p-2 bg-purple-100 text-purple-900 rounded-lg font-bold hover:text-purple-100 hover:bg-purple-900 ">
+            <MenuIcon />
+          </button>
           <div className="w-full md:w-1/2"></div>
           <div className="w-full text-center md:w-1/2 md:text-left">
             <Avatar
@@ -114,7 +115,7 @@ const IndexPage = () => {
                 Contact
               </Link>
             </nav>
-            <div className="space-x-4">
+            <div className="space-x-4 mt-5">
               <a
                 href="https://www.linkedin.com/in/oluwatobiakanji/"
                 target="_blank"
