@@ -30,15 +30,15 @@ const IndexPage = () => {
 
       <div className="flex inline h-full">
         <div className="bg-purple-900 w-2/12 md:hidden md:w-0">
-        <button className="block mx-auto mt-1 p-2 bg-white bg-opacity-10 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100">
-          <MenuIcon />
-        </button>
-          <nav className="my-44 space-y-4">
+          <button className="block mx-auto mt-1 p-2 bg-white bg-opacity-10 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100">
+            <MenuIcon />
+          </button>
+          <nav className="space-y-4">
             <Link
               to="/about"
               className="text-center w-2/3 mx-auto block p-2 bg-white bg-opacity-10 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100 "
             >
-              <Home/>
+              <Home />
             </Link>
             <Link
               to="/about"
@@ -79,7 +79,7 @@ const IndexPage = () => {
             </Avatar>
             <h1 className="hero-text">Oluwatobi Akanji</h1>
             <h2 className="text-2xl font-bold text-purple-100">
-              I am a Software Engineer &amp; Cloud Architect
+              I am a Software Engineer
             </h2>
             <nav className="py-5 space-x-2 hidden md:block ">
               <Link
