@@ -10,6 +10,7 @@ import DescriptionIcon from "@material-ui/icons/Description";
 import AppsIcon from "@material-ui/icons/Apps";
 import ContactPhoneIcon from "@material-ui/icons/ContactPhone";
 import MenuIcon from "@material-ui/icons/Menu";
+import CloseIcon from "@material-ui/icons/Close";
 import "../styles/site.css";
 
 // markup
@@ -30,10 +31,10 @@ const IndexPage = () => {
 
       <div className="flex inline h-full">
         <div className="bg-purple-900 w-2/12 md:hidden md:w-0">
-          <button className="block mx-auto mt-1 p-2 bg-white bg-opacity-10 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100">
-            <MenuIcon />
+          <button className="block mx-auto mt-1 p-2 bg-yellow-400 bg-opacity-1k0 text-purple-900 rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100">
+            <CloseIcon />
           </button>
-          <nav className="space-y-4">
+          <nav className="mt-10 space-y-4">
             <Link
               to="/about"
               className="text-center w-2/3 mx-auto block p-2 bg-white bg-opacity-10 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100 "
