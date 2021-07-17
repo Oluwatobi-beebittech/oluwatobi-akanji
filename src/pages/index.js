@@ -15,7 +15,7 @@ import "../styles/site.css";
 // markup
 const IndexPage = () => {
   return (
-    <main className="">
+    <main className="h-screen">
       <title>Oluwatobi Akanji</title>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
