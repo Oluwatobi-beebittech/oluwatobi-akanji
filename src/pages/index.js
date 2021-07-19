@@ -3,35 +3,25 @@ import { Link } from "gatsby";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import EmailIcon from "@material-ui/icons/Email";
-import Avatar from "@material-ui/core/Avatar";
+// import Avatar from "@material-ui/core/Avatar";
 import Home from "@material-ui/icons/Home";
 import PersonPinIcon from "@material-ui/icons/PersonPin";
 import DescriptionIcon from "@material-ui/icons/Description";
 import AppsIcon from "@material-ui/icons/Apps";
 import ContactPhoneIcon from "@material-ui/icons/ContactPhone";
 import MenuIcon from "@material-ui/icons/Menu";
-import CloseIcon from "@material-ui/icons/Close";
+// import CloseIcon from "@material-ui/icons/Close";
 import "../styles/site.css";
 
 // markup
 const IndexPage = () => {
   return (
     <main className="h-screen">
-      <title>Oluwatobi Akanji</title>
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap"
-        rel="stylesheet"
-      />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
-        rel="stylesheet"
-      />
-
       <div className="flex inline h-full">
-        <div className="hidden bg-purple-900 w-2/12 md:hidden md:w-0 overflow-y-scroll">
-          
+        <div
+          id="mobile-nav"
+          className="hidden bg-purple-900 w-2/12 md:hidden md:w-0 overflow-y-scroll"
+        >
           <nav className="mt-36 space-y-4">
             <Link
               to="/about"
@@ -66,7 +56,10 @@ const IndexPage = () => {
           </nav>
         </div>
         <div className="w-screen flex flex-wrap content-center bg-purple-900 bg-opacity-70 md:w-screen md:h-screen ">
-          <button className="md:hidden absolute top-0 mt-2 p-2 bg-purple-100 text-purple-900 rounded-lg font-bold hover:text-purple-100 hover:bg-purple-900 ">
+          <button
+            id="mobile-nav-btn"
+            className="md:hidden absolute top-0 mt-2 p-2 bg-purple-100 text-purple-900 rounded-lg font-bold hover:text-purple-100 hover:bg-purple-900 "
+          >
             <MenuIcon />
           </button>
           <div className="w-full md:w-1/2"></div>
@@ -83,7 +76,7 @@ const IndexPage = () => {
             <h2 className="text-2xl font-bold text-purple-100">
               I am a Software Engineer
             </h2>
-            <nav className="py-5 space-x-2 hidden md:block ">
+            <nav className="py-5 space-x-2 hidden md:block mt-5">
               <Link
                 to="/about"
                 className="transition duration-500 ease-in-out p-2 bg-purple-900 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100 "
