@@ -6,12 +6,12 @@ import PersonPinIcon from "@material-ui/icons/PersonPin";
 import DescriptionIcon from "@material-ui/icons/Description";
 import AppsIcon from "@material-ui/icons/Apps";
 import ContactPhoneIcon from "@material-ui/icons/ContactPhone";
+import Avatar from "@material-ui/core/Avatar";
 import "../styles/site.css";
 
-// markup
-const IndexPage = () => {
+const AboutPage = () => {
   return (
-    <main className="h-screen" id="index-main">
+    <main className="h-screen">
       <div className="flex inline h-full">
         <div
           id="mobile-nav"
@@ -51,23 +51,27 @@ const IndexPage = () => {
           </nav>
         </div>
 
-        <div className="w-screen flex flex-wrap content-center bg-purple-900 bg-opacity-70 md:w-screen md:h-screen ">
+        <div className="w-screen flex flex-wrap content-center bg-purple-900 bg-opacity-70 md:h-screen ">
           <button
             id="mobile-nav-btn"
-            className="md:hidden absolute top-0 mt-2 p-2 bg-purple-100 text-purple-900 rounded-lg font-bold hover:text-purple-100 hover:bg-purple-900 "
+            className="md:hidden absolute top-0 z-50 mt-2 p-2 bg-purple-100 text-purple-900 rounded-lg font-bold hover:text-purple-100 hover:bg-purple-900 "
           >
             <span id="mobile-nav-btn-icon" className="fa fa-bars fa-2x"></span>
           </button>
-          <div className="w-full md:w-1/2"></div>
-          <div className="w-full text-center md:w-1/2 md:text-left">
-            {/* <Avatar
+          <div className="absolute top-0 z-0 space-x-4 bg-purple-900 h-16 w-screen md:w-full flex justify-end">
+            <Avatar
               alt="Oluwatobi Akanji Avatar"
               src="https://avatars.githubusercontent.com/u/13138782?v=4"
-              style={{ width: "5em", height: "5em" }}
-              className="bg-purple-900 text-white mx-auto md:mx-0"
+              className="bg-purple-900 text-white my-auto"
             >
               OA
-            </Avatar> */}
+            </Avatar>
+            <p className="font-weight-bold text-white my-auto mr-4">
+              Oluwatobi Akanji
+            </p>
+          </div>
+          <div className="w-full md:w-1/2"></div>
+          <div className="w-full text-center md:w-1/2 md:text-left">
             <h1 className="hero-text">Oluwatobi Akanji</h1>
             <h2 className="text-2xl font-bold text-purple-100">
               I am a Cloud Software Engineer
@@ -134,4 +138,4 @@ const IndexPage = () => {
   );
 };
 
-export default IndexPage;
+export default AboutPage;
