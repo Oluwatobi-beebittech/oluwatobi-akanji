@@ -22,6 +22,7 @@ export default function HTML(props) {
           rel="stylesheet"
         />
         <title>Oluwatobi Akanji</title>
+        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>
@@ -38,10 +39,13 @@ export default function HTML(props) {
         dangerouslySetInnerHTML={{
           __html: `
             const mobileNavBtn = document.getElementById("mobile-nav-btn");
+            const mobileNavBtnIcon = document.getElementById("mobile-nav-btn-icon");
             const mobileNav = document.getElementById("mobile-nav");
 
             mobileNavBtn.onclick = function(){
               mobileNav.classList.toggle("hidden");
+              mobileNavBtnIcon.classList.toggle("fa-bars");
+              mobileNavBtnIcon.classList.toggle("fa-times");
               
             };
 

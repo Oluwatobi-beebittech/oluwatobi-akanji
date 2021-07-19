@@ -1,16 +1,11 @@
 import * as React from "react";
 import { Link } from "gatsby";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import GitHubIcon from "@material-ui/icons/GitHub";
-import EmailIcon from "@material-ui/icons/Email";
-// import Avatar from "@material-ui/core/Avatar";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 import Home from "@material-ui/icons/Home";
 import PersonPinIcon from "@material-ui/icons/PersonPin";
 import DescriptionIcon from "@material-ui/icons/Description";
 import AppsIcon from "@material-ui/icons/Apps";
 import ContactPhoneIcon from "@material-ui/icons/ContactPhone";
-import MenuIcon from "@material-ui/icons/Menu";
-// import CloseIcon from "@material-ui/icons/Close";
 import "../styles/site.css";
 
 // markup
@@ -55,12 +50,13 @@ const IndexPage = () => {
             </Link>
           </nav>
         </div>
+
         <div className="w-screen flex flex-wrap content-center bg-purple-900 bg-opacity-70 md:w-screen md:h-screen ">
           <button
             id="mobile-nav-btn"
             className="md:hidden absolute top-0 mt-2 p-2 bg-purple-100 text-purple-900 rounded-lg font-bold hover:text-purple-100 hover:bg-purple-900 "
           >
-            <MenuIcon />
+            <span id="mobile-nav-btn-icon" className="fa fa-bars fa-2x"></span>
           </button>
           <div className="w-full md:w-1/2"></div>
           <div className="w-full text-center md:w-1/2 md:text-left">
@@ -74,7 +70,7 @@ const IndexPage = () => {
             </Avatar> */}
             <h1 className="hero-text">Oluwatobi Akanji</h1>
             <h2 className="text-2xl font-bold text-purple-100">
-              I am a Software Engineer
+              I am a Cloud Software Engineer
             </h2>
             <nav className="py-5 space-x-2 hidden md:block mt-5">
               <Link
@@ -108,36 +104,27 @@ const IndexPage = () => {
                 Contact
               </Link>
             </nav>
-            <div className="space-x-4 mt-5">
+            <div className="space-x-4 mt-5 flex justify-center md:justify-start">
               <a
                 href="https://www.linkedin.com/in/oluwatobiakanji/"
                 target="_blank"
                 rel="noreferrer"
               >
-                <LinkedInIcon
-                  fontSize="large"
-                  className="text-purple-200 hover:text-purple-100"
-                />
+                <span className="fab fa-linkedin fa-2x text-purple-200 hover:text-purple-100"></span>
               </a>
               <a
                 href="https://github.com/Oluwatobi-beebittech"
                 target="_blank"
                 rel="noreferrer"
               >
-                <GitHubIcon
-                  fontSize="large"
-                  className="text-purple-200 hover:text-purple-100"
-                />
+                <span className="fab fa-github fa-2x text-purple-200 hover:text-purple-100"></span>
               </a>
               <a
                 href="mailto:akanjioluwatobishadrach@yahoo.com"
                 target="_blank"
                 rel="noreferrer"
               >
-                <EmailIcon
-                  fontSize="large"
-                  className="text-purple-200 hover:text-purple-100"
-                />
+                <span className="fa fa-envelope fa-2x text-purple-200 hover:text-purple-100"></span>
               </a>
             </div>
           </div>
