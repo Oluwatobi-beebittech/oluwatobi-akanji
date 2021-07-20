@@ -12,7 +12,7 @@ export default function HTML(props) {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link
           href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap"
           rel="stylesheet"
@@ -41,11 +41,18 @@ export default function HTML(props) {
             const mobileNavBtn = document.getElementById("mobile-nav-btn");
             const mobileNavBtnIcon = document.getElementById("mobile-nav-btn-icon");
             const mobileNav = document.getElementById("mobile-nav");
+            const topBar = document.getElementById("top-bar");
 
             mobileNavBtn.onclick = function(){
               mobileNav.classList.toggle("hidden");
               mobileNavBtnIcon.classList.toggle("fa-bars");
               mobileNavBtnIcon.classList.toggle("fa-times");
+              if(topBar!==null){
+                topBar.classList.toggle("w-screen");
+                topBar.classList.toggle("w-85vw");
+                
+              }
+              
               
             };
 

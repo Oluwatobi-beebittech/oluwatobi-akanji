@@ -58,7 +58,10 @@ const AboutPage = () => {
           >
             <span id="mobile-nav-btn-icon" className="fa fa-bars fa-2x"></span>
           </button>
-          <div className="absolute top-0 z-0 space-x-4 bg-purple-900 h-16 w-screen md:w-full flex justify-end">
+          <div
+            className="absolute top-0 z-0 pr-4 space-x-4 bg-purple-900 h-16 w-screen md:w-full flex justify-end font-bold"
+            id="top-bar"
+          >
             <Avatar
               alt="Oluwatobi Akanji Avatar"
               src="https://avatars.githubusercontent.com/u/13138782?v=4"
@@ -70,66 +73,62 @@ const AboutPage = () => {
               Oluwatobi Akanji
             </p>
           </div>
-          <div className="w-full md:w-1/2"></div>
-          <div className="w-full text-center md:w-1/2 md:text-left">
-            <h1 className="hero-text">Oluwatobi Akanji</h1>
-            <h2 className="text-2xl font-bold text-purple-100">
-              I am a Cloud Software Engineer
-            </h2>
-            <nav className="py-5 space-x-2 hidden md:block mt-5">
-              <Link
-                to="/about"
-                className="transition duration-500 ease-in-out p-2 bg-purple-900 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100 "
-              >
-                Home
-              </Link>
-              <Link
-                to="/about"
-                className="transition duration-500 ease-in-out p-2 bg-purple-900 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100"
-              >
-                About
-              </Link>
-              <Link
-                to="/about"
-                className="transition duration-500 ease-in-out p-2 bg-purple-900 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100"
-              >
-                Resume
-              </Link>
-              <Link
-                to="/about"
-                className="transition duration-500 ease-in-out p-2 bg-purple-900 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100"
-              >
-                Portfolio
-              </Link>
-              <Link
-                to="/about"
-                className="transition duration-500 ease-in-out p-2 bg-purple-900 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100"
-              >
-                Contact
-              </Link>
-            </nav>
-            <div className="space-x-4 mt-5 flex justify-center md:justify-start">
-              <a
-                href="https://www.linkedin.com/in/oluwatobiakanji/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <span className="fab fa-linkedin fa-2x text-purple-200 hover:text-purple-100"></span>
-              </a>
-              <a
-                href="https://github.com/Oluwatobi-beebittech"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <span className="fab fa-github fa-2x text-purple-200 hover:text-purple-100"></span>
-              </a>
-              <a
-                href="mailto:akanjioluwatobishadrach@yahoo.com"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <span className="fa fa-envelope fa-2x text-purple-200 hover:text-purple-100"></span>
-              </a>
+          <div className="w-5/6 bg-white h-screen overflow-y-scroll mx-auto text-black">
+            <div className="mt-20 w-11/12 mx-auto">
+              <h1 className="merienda text-4xl text-purple-900">
+                Meet Oluwatobi Akanji
+              </h1>
+              <h4 className="mt-10 font-bold">Who am I?</h4>
+              <div className="flex ml-5 space-x-4 mt-1 ">
+                <span
+                  className="iconify text-7xl md:text-2xl text-purple-900"
+                  data-icon="ci:user-check"
+                ></span>
+                <p className="md:w-1/2">
+                  A <b>Cloud Software Engineer</b> with experience developing
+                  websites, full-stack web applications, APIs.
+                </p>
+              </div>
+              <div className="flex ml-5 space-x-4 mt-1">
+                <span
+                  className="iconify text-7xl md:text-2xl text-purple-900"
+                  data-icon="ci:user-check"
+                ></span>
+                <p className="md:w-1/2">
+                  A <b>Masters Degree in Computer Science (Distinction) </b>
+                  holder.
+                </p>
+              </div>
+              <div className="flex ml-5 space-x-4 mt-1">
+                <span
+                  className="iconify text-7xl md:text-2xl text-purple-900"
+                  data-icon="ci:user-check"
+                ></span>
+                <p className="md:w-1/2">
+                  Focused on implementing highly performant secure and scalable systems.
+                </p>
+              </div>
+              <div className="flex ml-5 space-x-4 mt-1">
+                <span
+                  className="iconify text-7xl md:text-2xl text-purple-900"
+                  data-icon="ci:user-check"
+                ></span>
+                <p className="md:w-1/2">
+                  Currently working as an IT Infrastructure Engineer at <a href="https://steamledge.com" className="font-bold text-purple-900">Steamledge</a>.
+                </p>
+              </div>
+
+              <h4 className="mt-10 font-bold">What I do</h4>
+              <div className="flex ml-5 space-x-4 mt-1 ">
+                <span
+                  className="iconify text-7xl md:text-2xl text-purple-900"
+                  data-icon="ci:user-check"
+                ></span>
+                <p className="md:w-1/2">
+                  A <b>Cloud Software Engineer</b> with experience developing
+                  websites, full-stack web applications, APIs.
+                </p>
+              </div>
             </div>
           </div>
         </div>

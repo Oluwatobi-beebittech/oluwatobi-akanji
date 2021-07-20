@@ -1,13 +1,19 @@
 * {
   font-family: "Quicksand", sans-serif;
 }
-.hero-text{
+.hero-text {
   color: white;
   font-family: "Merienda One", cursive;
   font-size: 3.2rem;
 }
-#index-main{
-  background-image: url('../images/bg-img.jpg');
+.merienda{
+  font-family: "Merienda One", cursive;
+}
+#index-main {
+  background-image: url("../images/bg-img.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+}
+.w-85vw {
+  width: 85.7vw;
 }

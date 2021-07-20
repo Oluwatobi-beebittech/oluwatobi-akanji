@@ -60,14 +60,7 @@ const IndexPage = () => {
           </button>
           <div className="w-full md:w-1/2"></div>
           <div className="w-full text-center md:w-1/2 md:text-left">
-            {/* <Avatar
-              alt="Oluwatobi Akanji Avatar"
-              src="https://avatars.githubusercontent.com/u/13138782?v=4"
-              style={{ width: "5em", height: "5em" }}
-              className="bg-purple-900 text-white mx-auto md:mx-0"
-            >
-              OA
-            </Avatar> */}
+            
             <h1 className="hero-text">Oluwatobi Akanji</h1>
             <h2 className="text-2xl font-bold text-purple-100">
               I am a Cloud Software Engineer
