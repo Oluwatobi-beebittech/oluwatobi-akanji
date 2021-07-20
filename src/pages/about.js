@@ -127,7 +127,7 @@ const AboutPage = () => {
               </div>
 
               <h4 className="mt-10 font-bold">What I do</h4>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-5 md:mt-2">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-2 mb-5 md:mt-2">
                 <div className="text-center rounded-lg shadow-box h-40 transition transform ease-in-out hover:scale-105">
                   <span
                     className="iconify mx-auto my-2 text-5xl text-red-500"
@@ -135,7 +135,7 @@ const AboutPage = () => {
                   ></span>
                   <h4 className="font-bold">Cloud Architecture</h4>
                   <p>
-                    I design the architecture of software to run on the cloud.
+                    I design the architecture of the cloud platform to host a software.
                   </p>
                 </div>
                 <div className="text-center rounded-lg shadow-box h-40 transition transform ease-in-out hover:scale-105">
