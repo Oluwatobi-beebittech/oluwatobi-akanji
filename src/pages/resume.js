@@ -17,11 +17,11 @@ import Accordion from "@material-ui/core/Accordion";
 import AccordionSummary from "@material-ui/core/AccordionSummary";
 import AccordionDetails from "@material-ui/core/AccordionDetails";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from "@material-ui/core/styles";
 
-const useStyles = makeStyles((theme)=>({
-  root:{
-    backgroundColor: 'blue',
+const useStyles = makeStyles((theme) => ({
+  root: {
+    backgroundColor: "blue",
   },
 }));
 
@@ -149,7 +149,7 @@ const ResumePage = () => {
                     rel="noreferrer"
                   >
                     View credential{" "}
-                    <span className="fa fa-external-link-alt"></span>
+                    <span className="fa fa-external-link-alt fa-xs"></span>
                   </a>
                 </div>
                 <div className="text-center rounded-lg space-y-2 shadow-box h-60 transition transform ease-in-out hover:scale-105">
@@ -168,7 +168,7 @@ const ResumePage = () => {
                     rel="noreferrer"
                   >
                     View credential{" "}
-                    <span className="fa fa-external-link-alt"></span>
+                    <span className="fa fa-external-link-alt fa-xs"></span>
                   </a>
                 </div>
                 <div className="text-center rounded-lg space-y-2 shadow-box h-60 transition transform ease-in-out hover:scale-105">
@@ -187,7 +187,7 @@ const ResumePage = () => {
                     rel="noreferrer"
                   >
                     View credential{" "}
-                    <span className="fa fa-external-link-alt"></span>
+                    <span className="fa fa-external-link-alt fa-xs"></span>
                   </a>
                 </div>
                 <div className="text-center rounded-lg space-y-2 shadow-box h-60 transition transform ease-in-out hover:scale-105">
@@ -206,55 +206,81 @@ const ResumePage = () => {
                     rel="noreferrer"
                   >
                     View credential{" "}
-                    <span className="fa fa-external-link-alt"></span>
+                    <span className="fa fa-external-link-alt fa-xs"></span>
                   </a>
                 </div>
               </div>
 
-              <h4 className="mt-10 font-bold">Education</h4>
+              <h4 className="mt-10 font-bold mb-2">Education</h4>
               <Accordion>
                 <AccordionSummary
-                  expandIcon={ExpandMoreIcon}
+                  expandIcon={<ExpandMoreIcon />}
                   aria-controls="postgraduate"
                   id="postgraduate"
-                  classes={classes}
+                  classes={{
+                    expanded: "font-bold text-purple-900",
+                    root: "font-bold",
+                  }}
                 >
-                  Hello
+                  Postgraduate Education
                 </AccordionSummary>
-                <AccordionDetails>hgkg</AccordionDetails>
+                <AccordionDetails classes={{ root: "bg-gray-100" }}>
+                  <div className="w-5/6 space-y-1">
+                    <div className="flex justify-between">
+                      <p>Federal University of Technology, Minna, Nigeria</p>
+                      <p className="font-bold">2019-2021</p>
+                    </div>
+                    <p>MTech. Computer Science</p>
+                    <p>Distinction</p>
+                  </div>
+                </AccordionDetails>
               </Accordion>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-2 mb-5 md:mt-2">
-                <div className="text-center rounded-lg shadow-box h-40 transition transform ease-in-out hover:scale-105">
-                  <span
-                    className="iconify mx-auto my-2 text-5xl text-red-500"
-                    data-icon="ant-design:cloud-twotone"
-                  ></span>
-                  <h4 className="font-bold">Cloud Architecture</h4>
-                  <p>
-                    I design the architecture of the cloud platform to host a
-                    software.
-                  </p>
-                </div>
-                <div className="text-center rounded-lg shadow-box h-40 transition transform ease-in-out hover:scale-105">
-                  <span
-                    className="iconify mx-auto my-2 text-5xl text-blue-500"
-                    data-icon="ant-design:api-twotone"
-                  ></span>
-                  <h4 className="font-bold">Back-End Web Development</h4>
-                  <p>
-                    I implement the logic of web applications as APIs using
-                    codes.
-                  </p>
-                </div>
-                <div className="text-center rounded-lg shadow-box h-40 transition transform ease-in-out hover:scale-105">
-                  <span
-                    className="iconify mx-auto my-2 text-5xl text-green-500"
-                    data-icon="icon-park-outline:cycle-arrow"
-                  ></span>
-                  <h4 className="font-bold">Devops</h4>
-                  <p>I configure and manage cloud resources for CI/CD.</p>
-                </div>
-              </div>
+
+              <Accordion>
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="undergraduate"
+                  id="undergraduate"
+                  classes={{
+                    expanded: "font-bold text-purple-900",
+                    root: "font-bold",
+                  }}
+                >
+                  Undergraduate Education
+                </AccordionSummary>
+                <AccordionDetails classes={{ root: "bg-gray-100" }}>
+                  <div className="w-5/6 space-y-1">
+                    <div className="flex justify-between">
+                      <p>Ahmadu Bello University, Zaria, Nigeria</p>
+                      <p className="font-bold">2011-2015</p>
+                    </div>
+                    <p>BSc. Computer Science</p>
+                    <p>Second Class Upper (2:1)</p>
+                  </div>
+                </AccordionDetails>
+              </Accordion>
+              <Accordion>
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="secondary"
+                  id="secondary"
+                  classes={{
+                    expanded: "font-bold text-purple-900",
+                    root: "font-bold",
+                  }}
+                >
+                  Secondary Education
+                </AccordionSummary>
+                <AccordionDetails classes={{ root: "bg-gray-100" }}>
+                  <div className="w-5/6 space-y-1">
+                    <div className="flex justify-between">
+                      <p>Salama High School, Jos, Nigeria</p>
+                      <p className="font-bold">2006-2011</p>
+                    </div>
+                    <p>Senior Secondary School Certificate</p>
+                  </div>
+                </AccordionDetails>
+              </Accordion>
             </div>
           </div>
         </div>
