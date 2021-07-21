@@ -31,19 +31,19 @@ const IndexPage = () => {
               <PersonPinIcon />
             </Link>
             <Link
-              to="/about"
+              to="/resume"
               className="text-center w-2/3 mx-auto block p-2 bg-white bg-opacity-10 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100 "
             >
               <DescriptionIcon />
             </Link>
             <Link
-              to="/about"
+              to="/portfolio"
               className="text-center w-2/3 mx-auto block p-2 bg-white bg-opacity-10 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100 "
             >
               <AppsIcon />
             </Link>
             <Link
-              to="/about"
+              to="/contact"
               className="text-center w-2/3 mx-auto block p-2 bg-white bg-opacity-10 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100 "
             >
               <ContactPhoneIcon />
@@ -67,7 +67,7 @@ const IndexPage = () => {
             </h2>
             <nav className="py-5 space-x-2 hidden md:block mt-5">
               <Link
-                to="/about"
+                to="/"
                 className="transition duration-500 ease-in-out p-2 bg-purple-900 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100 "
               >
                 Home
@@ -79,19 +79,19 @@ const IndexPage = () => {
                 About
               </Link>
               <Link
-                to="/about"
+                to="/resume"
                 className="transition duration-500 ease-in-out p-2 bg-purple-900 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100"
               >
                 Resume
               </Link>
               <Link
-                to="/about"
+                to="/portfolio"
                 className="transition duration-500 ease-in-out p-2 bg-purple-900 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100"
               >
                 Portfolio
               </Link>
               <Link
-                to="/about"
+                to="/contact"
                 className="transition duration-500 ease-in-out p-2 bg-purple-900 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100"
               >
                 Contact

@@ -11,6 +11,7 @@ import "../styles/site.css";
 import Gif from "../images/oluwatobi-akanji.gif";
 import PassportImg from "../images/passport.jpg";
 
+
 const AboutPage = () => {
   return (
     <main className="h-screen">
@@ -21,7 +22,7 @@ const AboutPage = () => {
         >
           <nav className="mt-36 space-y-4">
             <Link
-              to="/about"
+              to="/"
               className="text-center w-2/3 mx-auto block p-2 bg-white bg-opacity-10 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100 "
             >
               <Home />
@@ -33,19 +34,19 @@ const AboutPage = () => {
               <PersonPinIcon />
             </Link>
             <Link
-              to="/about"
+              to="/resume"
               className="text-center w-2/3 mx-auto block p-2 bg-white bg-opacity-10 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100 "
             >
               <DescriptionIcon />
             </Link>
             <Link
-              to="/about"
+              to="/portfolio"
               className="text-center w-2/3 mx-auto block p-2 bg-white bg-opacity-10 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100 "
             >
               <AppsIcon />
             </Link>
             <Link
-              to="/about"
+              to="/contact"
               className="text-center w-2/3 mx-auto block p-2 bg-white bg-opacity-10 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100 "
             >
               <ContactPhoneIcon />
@@ -61,9 +62,41 @@ const AboutPage = () => {
             <span id="mobile-nav-btn-icon" className="fa fa-bars fa-2x"></span>
           </button>
           <div
-            className="absolute top-0 z-0 pr-4 space-x-4 bg-purple-900 h-16 w-screen md:w-full flex justify-end font-bold"
+            className="absolute top-0 z-10 pr-4 space-x-4 bg-purple-900 h-16 w-screen md:w-full flex justify-end font-bold"
             id="top-bar"
           >
+            <nav className="py-5 space-x-2 hidden md:block">
+              <Link
+                to="/"
+                className="transition duration-500 ease-in-out p-2 bg-purple-900 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100 "
+              >
+                Home
+              </Link>
+              <Link
+                to="/about"
+                className="transition duration-500 ease-in-out p-2 bg-purple-900 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100"
+              >
+                About
+              </Link>
+              <Link
+                to="/resume"
+                className="transition duration-500 ease-in-out p-2 bg-purple-900 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100"
+              >
+                Resume
+              </Link>
+              <Link
+                to="/portfolio"
+                className="transition duration-500 ease-in-out p-2 bg-purple-900 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100"
+              >
+                Portfolio
+              </Link>
+              <Link
+                to="/contact"
+                className="transition duration-500 ease-in-out p-2 bg-purple-900 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100"
+              >
+                Contact
+              </Link>
+            </nav>
             <Avatar
               alt="Oluwatobi Akanji Avatar"
               src={PassportImg}
@@ -71,11 +104,13 @@ const AboutPage = () => {
             >
               OA
             </Avatar>
-            <p className="font-weight-bold text-white my-auto mr-4">
-              Oluwatobi Akanji
-            </p>
+            <Link to="/about">
+              <p className="font-weight-bold text-white mt-5">
+                Oluwatobi Akanji
+              </p>
+            </Link>
           </div>
-          <div className="w-5/6 bg-white h-screen overflow-y-scroll mx-auto text-black">
+          <div className="w-full md:w-5/6 bg-white h-screen overflow-y-scroll mx-auto text-black">
             <div className="mt-20 w-11/12 mx-auto">
               <h1 className="merienda text-4xl text-purple-900">
                 Meet Oluwatobi Akanji
@@ -90,9 +125,9 @@ const AboutPage = () => {
                   />
                 </div>
                 <div>
-                  <div className="flex ml-5 space-x-4 mt-1 ">
+                  <div className="flex ml-5 space-x-4 mt-5 md-mt-1">
                     <span
-                      className="iconify text-7xl md:text-2xl text-purple-900"
+                      className="iconify text-7xl md:text-4xl text-purple-900"
                       data-icon="ci:user-check"
                     ></span>
                     <p className="">
@@ -112,7 +147,7 @@ const AboutPage = () => {
                   </div>
                   <div className="flex ml-5 space-x-4 mt-1">
                     <span
-                      className="iconify text-6xl md:text-2xl text-purple-900"
+                      className="iconify text-6xl md:text-3xl text-purple-900"
                       data-icon="ci:user-check"
                     ></span>
                     <p className="">
@@ -122,7 +157,7 @@ const AboutPage = () => {
                   </div>
                   <div className="flex ml-5 space-x-4 mt-1">
                     <span
-                      className="iconify text-5xl md:text-2xl text-purple-900"
+                      className="iconify text-5xl md:text-3xl text-purple-900"
                       data-icon="ci:user-check"
                     ></span>
                     <p className="">
@@ -130,6 +165,8 @@ const AboutPage = () => {
                       <a
                         href="https://steamledge.com"
                         className="font-bold text-purple-900"
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         Steamledge{" "}
                         <span className="fa fa-external-link-alt"></span>

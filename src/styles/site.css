@@ -28,9 +28,22 @@
   height: 250px;
   overflow: hidden;
   border-radius: 50%;
-  z-index: 1;
+  z-index: 0;
 }
 .img-circle {
+  width: auto;
+  height: 100%;
+}
+.img-circle-wrapper-cert {
+  display: inline-block;
+  position: relative;
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  border-radius: 50%;
+  z-index: 0;
+}
+.img-circle-cert {
   width: auto;
   height: 100%;
 }
