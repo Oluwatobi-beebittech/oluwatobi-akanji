@@ -8,6 +8,8 @@ import AppsIcon from "@material-ui/icons/Apps";
 import ContactPhoneIcon from "@material-ui/icons/ContactPhone";
 import Avatar from "@material-ui/core/Avatar";
 import "../styles/site.css";
+import Gif from "../images/oluwatobi-akanji.gif";
+import PassportImg from "../images/passport.jpg";
 
 const AboutPage = () => {
   return (
@@ -64,7 +66,7 @@ const AboutPage = () => {
           >
             <Avatar
               alt="Oluwatobi Akanji Avatar"
-              src="https://avatars.githubusercontent.com/u/13138782?v=4"
+              src={PassportImg}
               className="bg-purple-900 text-white my-auto"
             >
               OA
@@ -79,51 +81,63 @@ const AboutPage = () => {
                 Meet Oluwatobi Akanji
               </h1>
               <h4 className="mt-10 font-bold">Who am I?</h4>
-              <div className="flex ml-5 space-x-4 mt-1 ">
-                <span
-                  className="iconify text-7xl md:text-2xl text-purple-900"
-                  data-icon="ci:user-check"
-                ></span>
-                <p className="md:w-1/2">
-                  A <b>Cloud Software Engineer</b> with experience developing
-                  websites, full-stack web applications, APIs.
-                </p>
-              </div>
-              <div className="flex ml-5 space-x-4 mt-1">
-                <span
-                  className="iconify text-5xl md:text-2xl text-purple-900"
-                  data-icon="ci:user-check"
-                ></span>
-                <p className="md:w-1/2">
-                  A <b>Masters Degree in Computer Science (Distinction) </b>
-                  holder.
-                </p>
-              </div>
-              <div className="flex ml-5 space-x-4 mt-1">
-                <span
-                  className="iconify text-6xl md:text-2xl text-purple-900"
-                  data-icon="ci:user-check"
-                ></span>
-                <p className="md:w-1/2">
-                  Focused on implementing highly performant, secure, and
-                  scalable systems.
-                </p>
-              </div>
-              <div className="flex ml-5 space-x-4 mt-1">
-                <span
-                  className="iconify text-5xl md:text-2xl text-purple-900"
-                  data-icon="ci:user-check"
-                ></span>
-                <p className="md:w-1/2">
-                  Currently working as an IT Infrastructure Engineer at{" "}
-                  <a
-                    href="https://steamledge.com"
-                    className="font-bold text-purple-900"
-                  >
-                    Steamledge
-                  </a>
-                  .
-                </p>
+              <div className="grid grid-cols-1 md:grid-cols-2">
+                <div className="img-circle-wrapper-profile mx-auto my-auto">
+                  <img
+                    src={Gif}
+                    className="img-circle"
+                    alt="Oluwatobi Akanji"
+                  />
+                </div>
+                <div>
+                  <div className="flex ml-5 space-x-4 mt-1 ">
+                    <span
+                      className="iconify text-7xl md:text-2xl text-purple-900"
+                      data-icon="ci:user-check"
+                    ></span>
+                    <p className="">
+                      A <b>Cloud Software Engineer</b> with experience
+                      developing websites, full-stack web applications, APIs.
+                    </p>
+                  </div>
+                  <div className="flex ml-5 space-x-4 mt-1">
+                    <span
+                      className="iconify text-5xl md:text-2xl text-purple-900"
+                      data-icon="ci:user-check"
+                    ></span>
+                    <p className="">
+                      A <b>Masters Degree in Computer Science (Distinction) </b>
+                      holder.
+                    </p>
+                  </div>
+                  <div className="flex ml-5 space-x-4 mt-1">
+                    <span
+                      className="iconify text-6xl md:text-2xl text-purple-900"
+                      data-icon="ci:user-check"
+                    ></span>
+                    <p className="">
+                      Focused on implementing highly performant, secure, and
+                      scalable systems.
+                    </p>
+                  </div>
+                  <div className="flex ml-5 space-x-4 mt-1">
+                    <span
+                      className="iconify text-5xl md:text-2xl text-purple-900"
+                      data-icon="ci:user-check"
+                    ></span>
+                    <p className="">
+                      Currently working as an IT Infrastructure Engineer at{" "}
+                      <a
+                        href="https://steamledge.com"
+                        className="font-bold text-purple-900"
+                      >
+                        Steamledge{" "}
+                        <span className="fa fa-external-link-alt"></span>
+                      </a>
+                      .
+                    </p>
+                  </div>
+                </div>
               </div>
 
               <h4 className="mt-10 font-bold">What I do</h4>
@@ -135,7 +149,8 @@ const AboutPage = () => {
                   ></span>
                   <h4 className="font-bold">Cloud Architecture</h4>
                   <p>
-                    I design the architecture of the cloud platform to host a software.
+                    I design the architecture of the cloud platform to host a
+                    software.
                   </p>
                 </div>
                 <div className="text-center rounded-lg shadow-box h-40 transition transform ease-in-out hover:scale-105">
