@@ -20,7 +20,7 @@ import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import GitImg from "../images/git.png";
 import HtmlImg from "../images/html.jpg";
 import CssImg from "../images/css3.png";
-import SqlImg from "../images/sql.png";
+import SqlImg from "../images/sql.jpg";
 import LaravelImg from "../images/laravel.png";
 import ReactImg from "../images/react.png";
 import JavascriptImg from "../images/javascript.png";
@@ -88,7 +88,7 @@ const ResumePage = () => {
               <p className="mt-5 text-white font-medium">
                 <a
                   className="p-2.5 transition duration-500 ease-in-out bg-purple-900 hover:text-purple-900 hover:bg-purple-100 rounded-lg"
-                  href="#"
+                  href="#h"
                 >
                   Download my resume <span className="fa fa-download"></span>
                 </a>
@@ -111,7 +111,7 @@ const ResumePage = () => {
                       <h6 className="text-gray-600">Minna, Nigeria</h6>
                       <h6 className="text-gray-600">January 2020 - Present</h6>
                     </div>
-                    <div className="text-gray-700 mt-2">
+                    <div className="mt-2">
                       <p>
                         Worked on the cloud architecture for a fintech project
                         while considering billing and risks.
@@ -148,7 +148,7 @@ const ResumePage = () => {
                       </h6>
                     </div>
 
-                    <div className="text-gray-700 mt-2">
+                    <div className="mt-2">
                       <p>
                         Developed 21st century skill curriculum for schools in
                         Minna, Niger State.
@@ -184,7 +184,7 @@ const ResumePage = () => {
                         October 2017 - February 2019
                       </h6>
                     </div>
-                    <div className="text-gray-700 mt-2">
+                    <div className="mt-2">
                       <p>
                         Reduced learners' idle time by 50% through a schedule
                         redesign.
@@ -214,7 +214,7 @@ const ResumePage = () => {
                         June 2014 - December 2014
                       </h6>
                     </div>
-                    <div className="text-gray-700 mt-2">
+                    <div className="mt-2">
                       <p>
                         Assisted in configuring departments’ internet
                         connectivity in the University which resulted in a 10%
@@ -408,8 +408,10 @@ const ResumePage = () => {
                   <AccordionDetails classes={{ root: "bg-gray-100" }}>
                     <div className="w-5/6 space-y-1">
                       <div className="flex justify-between">
-                        <p>Federal University of Technology, Minna, Nigeria</p>
-                        <p className="font-semibold">2019-2021</p>
+                        <p className="font-medium">
+                          Federal University of Technology, Minna, Nigeria
+                        </p>
+                        <p className="font-medium">2019-2021</p>
                       </div>
                       <p>MTech. Computer Science</p>
                       <p>Distinction</p>
@@ -432,8 +434,8 @@ const ResumePage = () => {
                   <AccordionDetails classes={{ root: "bg-gray-100" }}>
                     <div className="w-5/6 space-y-1">
                       <div className="flex justify-between">
-                        <p>Ahmadu Bello University, Zaria, Nigeria</p>
-                        <p className="font-semibold">2011-2015</p>
+                        <p className="font-medium">Ahmadu Bello University, Zaria, Nigeria</p>
+                        <p className="font-medium">2011-2015</p>
                       </div>
                       <p>BSc. Computer Science</p>
                       <p>Second Class Upper (2:1)</p>
@@ -455,8 +457,8 @@ const ResumePage = () => {
                   <AccordionDetails classes={{ root: "bg-gray-100" }}>
                     <div className="w-5/6 space-y-1">
                       <div className="flex justify-between">
-                        <p>Salama High School, Jos, Nigeria</p>
-                        <p className="font-semibold">2006-2011</p>
+                        <p className="font-medium">Salama High School, Jos, Nigeria</p>
+                        <p className="font-medium">2006-2011</p>
                       </div>
                       <p>Senior Secondary School Certificate</p>
                     </div>

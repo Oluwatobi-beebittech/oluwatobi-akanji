@@ -6,8 +6,9 @@ import PersonPinIcon from "@material-ui/icons/PersonPin";
 import DescriptionIcon from "@material-ui/icons/Description";
 import AppsIcon from "@material-ui/icons/Apps";
 import ContactPhoneIcon from "@material-ui/icons/ContactPhone";
-import Avatar from "@material-ui/core/Avatar";
 import "../styles/site.css";
+import Nav from "../component/nav";
+import WebBuddy from "../images/webbuddy.png";
 
 const PortfolioPage = () => {
   return (
@@ -19,7 +20,7 @@ const PortfolioPage = () => {
         >
           <nav className="mt-36 space-y-4">
             <Link
-              to="/about"
+              to="/"
               className="text-center w-2/3 mx-auto block p-2 bg-white bg-opacity-10 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100 "
             >
               <Home />
@@ -31,19 +32,19 @@ const PortfolioPage = () => {
               <PersonPinIcon />
             </Link>
             <Link
-              to="/about"
+              to="/resume"
               className="text-center w-2/3 mx-auto block p-2 bg-white bg-opacity-10 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100 "
             >
               <DescriptionIcon />
             </Link>
             <Link
-              to="/about"
+              to="/portfolio"
               className="text-center w-2/3 mx-auto block p-2 bg-white bg-opacity-10 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100 "
             >
               <AppsIcon />
             </Link>
             <Link
-              to="/about"
+              to="/contact"
               className="text-center w-2/3 mx-auto block p-2 bg-white bg-opacity-10 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100 "
             >
               <ContactPhoneIcon />
@@ -58,78 +59,30 @@ const PortfolioPage = () => {
           >
             <span id="mobile-nav-btn-icon" className="fa fa-bars fa-2x"></span>
           </button>
-          <div className="absolute top-0 z-0 space-x-4 bg-purple-900 h-16 w-screen md:w-full flex justify-end">
-            <Avatar
-              alt="Oluwatobi Akanji Avatar"
-              src="https://avatars.githubusercontent.com/u/13138782?v=4"
-              className="bg-purple-900 text-white my-auto"
-            >
-              OA
-            </Avatar>
-            <p className="font-weight-bold text-white my-auto mr-4">
-              Oluwatobi Akanji
-            </p>
-          </div>
-          <div className="w-full md:w-1/2"></div>
-          <div className="w-full text-center md:w-1/2 md:text-left">
-            <h1 className="hero-text">Oluwatobi Akanji</h1>
-            <h2 className="text-2xl font-bold text-purple-100">
-              I am a Cloud Software Engineer
-            </h2>
-            <nav className="py-5 space-x-2 hidden md:block mt-5">
-              <Link
-                to="/about"
-                className="transition duration-500 ease-in-out p-2 bg-purple-900 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100 "
-              >
-                Home
-              </Link>
-              <Link
-                to="/about"
-                className="transition duration-500 ease-in-out p-2 bg-purple-900 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100"
-              >
-                About
-              </Link>
-              <Link
-                to="/about"
-                className="transition duration-500 ease-in-out p-2 bg-purple-900 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100"
-              >
-                Resume
-              </Link>
-              <Link
-                to="/about"
-                className="transition duration-500 ease-in-out p-2 bg-purple-900 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100"
-              >
-                Portfolio
-              </Link>
-              <Link
-                to="/about"
-                className="transition duration-500 ease-in-out p-2 bg-purple-900 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100"
-              >
-                Contact
-              </Link>
-            </nav>
-            <div className="space-x-4 mt-5 flex justify-center md:justify-start">
-              <a
-                href="https://www.linkedin.com/in/oluwatobiakanji/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <span className="fab fa-linkedin fa-2x text-purple-200 hover:text-purple-100"></span>
-              </a>
-              <a
-                href="https://github.com/Oluwatobi-beebittech"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <span className="fab fa-github fa-2x text-purple-200 hover:text-purple-100"></span>
-              </a>
-              <a
-                href="mailto:akanjioluwatobishadrach@yahoo.com"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <span className="fa fa-envelope fa-2x text-purple-200 hover:text-purple-100"></span>
-              </a>
+          <Nav />
+          <div className="w-full md:w-5/6 bg-white h-screen overflow-y-scroll mx-auto text-black">
+            <div className="mt-20 w-11/12 mx-auto">
+              <h1 className="merienda text-4xl text-purple-900">Portfolio</h1>
+              <h4 className="mt-1 font-semibold">
+                Here is my portfolio showing some of my works.
+              </h4>
+              <div className="my-10">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div className="h-64 bg-purple-500">
+                    <img
+                      src={WebBuddy}
+                      alt="WebBuddy"
+                      className="w-full h-full"
+                    />
+                    <div className="bg-red-100 w-full h-full relative top-0">
+                      k
+                    </div>
+                  </div>
+                  <div className="h-64 bg-purple-500"></div>
+                  <div className="h-64 bg-purple-500"></div>
+                  <div className="h-64 bg-purple-500"></div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

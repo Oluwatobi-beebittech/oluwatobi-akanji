@@ -127,37 +127,39 @@ const AboutPage = () => {
                 </div>
               </div>
 
-              <h4 className="mt-10 font-bold text-lg">What I do</h4>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-2 mb-5 md:mt-2">
-                <div className="text-center rounded-lg shadow-box h-40 transition transform ease-in-out hover:scale-105">
-                  <span
-                    className="iconify mx-auto my-2 text-5xl text-red-500"
-                    data-icon="ant-design:cloud-twotone"
-                  ></span>
-                  <h4 className="font-bold">Cloud Architecture</h4>
-                  <p>
-                    I design the architecture of the cloud platform to host a
-                    software.
-                  </p>
-                </div>
-                <div className="text-center rounded-lg shadow-box h-40 transition transform ease-in-out hover:scale-105">
-                  <span
-                    className="iconify mx-auto my-2 text-5xl text-blue-500"
-                    data-icon="ant-design:api-twotone"
-                  ></span>
-                  <h4 className="font-bold">Back-End Web Development</h4>
-                  <p>
-                    I implement the logic of web applications as APIs using
-                    codes.
-                  </p>
-                </div>
-                <div className="text-center rounded-lg shadow-box h-40 transition transform ease-in-out hover:scale-105">
-                  <span
-                    className="iconify mx-auto my-2 text-5xl text-green-500"
-                    data-icon="icon-park-outline:cycle-arrow"
-                  ></span>
-                  <h4 className="font-bold">Devops</h4>
-                  <p>I configure and manage cloud resources for CI/CD.</p>
+              <div className="my-10">
+                <h4 className="font-bold text-lg">What I do</h4>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-2 mb-5 md:mt-2">
+                  <div className="text-center rounded-lg shadow-box h-40 transition transform ease-in-out hover:scale-105">
+                    <span
+                      className="iconify mx-auto my-2 text-5xl text-red-500"
+                      data-icon="ant-design:cloud-twotone"
+                    ></span>
+                    <h4 className="font-bold">Cloud Architecture</h4>
+                    <p>
+                      I design the architecture of the cloud platform to host a
+                      software.
+                    </p>
+                  </div>
+                  <div className="text-center rounded-lg shadow-box h-40 transition transform ease-in-out hover:scale-105">
+                    <span
+                      className="iconify mx-auto my-2 text-5xl text-blue-500"
+                      data-icon="ant-design:api-twotone"
+                    ></span>
+                    <h4 className="font-bold">Back-End Web Development</h4>
+                    <p>
+                      I implement the logic of web applications as APIs using
+                      codes.
+                    </p>
+                  </div>
+                  <div className="text-center rounded-lg shadow-box h-40 transition transform ease-in-out hover:scale-105">
+                    <span
+                      className="iconify mx-auto my-2 text-5xl text-green-500"
+                      data-icon="icon-park-outline:cycle-arrow"
+                    ></span>
+                    <h4 className="font-bold">Devops</h4>
+                    <p>I configure and manage cloud resources for CI/CD.</p>
+                  </div>
                 </div>
               </div>
             </div>
