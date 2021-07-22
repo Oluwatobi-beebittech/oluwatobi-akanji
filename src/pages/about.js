@@ -124,7 +124,7 @@ const AboutPage = () => {
                     alt="Oluwatobi Akanji"
                   />
                 </div>
-                <div>
+                <div className="space-y-2">
                   <div className="flex ml-5 space-x-4 mt-5 md-mt-1">
                     <span
                       className="iconify text-7xl md:text-4xl text-purple-900"
