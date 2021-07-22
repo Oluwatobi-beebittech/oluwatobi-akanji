@@ -60,7 +60,6 @@ const IndexPage = () => {
           </button>
           <div className="w-full md:w-1/2"></div>
           <div className="w-full text-center md:w-1/2 md:text-left">
-            
             <h1 className="hero-text">Oluwatobi Akanji</h1>
             <h2 className="text-2xl font-bold text-purple-100">
               I am a Cloud Software Engineer
@@ -68,31 +67,31 @@ const IndexPage = () => {
             <nav className="py-5 space-x-2 hidden md:block mt-5">
               <Link
                 to="/"
-                className="transition duration-500 ease-in-out p-2 bg-purple-900 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100 "
+                className="transition duration-500 ease-in-out p-2 bg-purple-900 text-white rounded-lg font-semibold hover:text-purple-900 hover:bg-purple-100 "
               >
                 Home
               </Link>
               <Link
                 to="/about"
-                className="transition duration-500 ease-in-out p-2 bg-purple-900 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100"
+                className="transition duration-500 ease-in-out p-2 bg-purple-900 text-white rounded-lg font-semibold hover:text-purple-900 hover:bg-purple-100"
               >
                 About
               </Link>
               <Link
                 to="/resume"
-                className="transition duration-500 ease-in-out p-2 bg-purple-900 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100"
+                className="transition duration-500 ease-in-out p-2 bg-purple-900 text-white rounded-lg font-semibold hover:text-purple-900 hover:bg-purple-100"
               >
                 Resume
               </Link>
               <Link
                 to="/portfolio"
-                className="transition duration-500 ease-in-out p-2 bg-purple-900 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100"
+                className="transition duration-500 ease-in-out p-2 bg-purple-900 text-white rounded-lg font-semibold hover:text-purple-900 hover:bg-purple-100"
               >
                 Portfolio
               </Link>
               <Link
                 to="/contact"
-                className="transition duration-500 ease-in-out p-2 bg-purple-900 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100"
+                className="transition duration-500 ease-in-out p-2 bg-purple-900 text-white rounded-lg font-semibold hover:text-purple-900 hover:bg-purple-100"
               >
                 Contact
               </Link>
