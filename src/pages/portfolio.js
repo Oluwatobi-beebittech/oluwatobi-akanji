@@ -74,8 +74,19 @@ const PortfolioPage = () => {
                       alt="WebBuddy"
                       className="w-full h-full"
                     />
-                    <div className="bg-red-100 w-full h-full relative top-0">
-                      k
+                    <div className="transition ease-in-out duration-75 bg-purple-900 bg-opacity-25 hover:bg-opacity-70 text-white md:text-black hover:text-white w-full h-full relative -mt-64">
+                      <a
+                        className="w-full h-full mx-auto font-semibold flex justify-center"
+                        href="https://oluwatobi-beebittech.github.io/WebBuddy/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <p className="mt-32">
+                          <span className=" p-2 rounded-lg bg-purple-900 bg-opacity-50 md:bg-opacity-0 md:rounded-none md:bg-transparent md:p-0">
+                            WebBuddy <span className="fa fa-link"></span>
+                          </span>
+                        </p>
+                      </a>
                     </div>
                   </div>
                   <div className="h-64 bg-purple-500"></div>
