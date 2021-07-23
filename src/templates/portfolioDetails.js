@@ -8,10 +8,10 @@ import AppsIcon from "@material-ui/icons/Apps";
 import ContactPhoneIcon from "@material-ui/icons/ContactPhone";
 import "../styles/site.css";
 import Nav from "../component/nav";
-import WebBuddy from "../images/webbuddy.png";
+import AppImage from "../images/webbuddy.png";
+import Breadcrumbs from "@material-ui/core/Breadcrumbs";
 
-const PortfolioPage = () => {
-  const portfolios = [{ title: "WebBuddy", slug: "/portfolio/webbuddy/" }];
+const PortfolioDetailsPage = ({ pageContext }) => {
   return (
     <main className="h-screen">
       <div className="flex inline h-full">
@@ -63,38 +63,63 @@ const PortfolioPage = () => {
           <Nav />
           <div className="w-full md:w-5/6 bg-white h-screen overflow-y-scroll mx-auto text-black">
             <div className="mt-20 w-11/12 mx-auto">
-              <h1 className="merienda text-4xl text-purple-900">Portfolio</h1>
+              <h1 className="merienda text-4xl text-purple-900">
+                {pageContext.title}
+              </h1>
               <h4 className="mt-1 font-semibold">
-                Here is my portfolio showing some of my works.
+                {pageContext.shortDescription}
               </h4>
-              <div className="my-10">
+              <div className="my-10 space-y-4">
+                <Breadcrumbs aria-label="breadcrumb">
+                  <Link
+                    to="/portfolio/"
+                    className="text-purple-900 font-medium"
+                  >
+                    Portfolio
+                  </Link>
+                  <Link to="/details" className="text-black font-medium">
+                    {pageContext.title}
+                  </Link>
+                </Breadcrumbs>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  {portfolios.map((portfolio) => (
-                    <div className="h-64 bg-purple-500">
-                      <img
-                        src={WebBuddy}
-                        alt={portfolio.title}
-                        className="w-full h-full"
-                      />
-                      <div className="transition ease-in-out duration-75 bg-purple-900 bg-opacity-25 hover:bg-opacity-70 text-white md:text-black hover:text-white w-full h-full relative -mt-64">
-                        <Link
-                          className="w-full h-full mx-auto font-semibold flex justify-center"
-                          to={portfolio.slug}
-                        >
-                          <p className="mt-32">
-                            <span className=" p-2 rounded-lg bg-purple-900 bg-opacity-50 md:bg-opacity-0 md:rounded-none md:bg-transparent md:p-0">
-                              {portfolio.title}{" "}
-                              <span className="fa fa-link"></span>
-                            </span>
-                          </p>
-                        </Link>
-                      </div>
+                  <div className="flex justify-center">
+                    <img
+                      className="my-auto"
+                      alt={`${pageContext.title} Demo`}
+                      src=""
+                    />
+                  </div>
+                  <div className="space-y-4">
+                    <h4 className="font-bold text-2xl text-black">
+                      {pageContext.title}
+                    </h4>
+                    <p>{pageContext.description}</p>
+                    <ul className="inline-flex list-disc list-inside space-x-4 text-gray-600 mt-2">
+                      {pageContext.techStack.map((tech) => (
+                        <li key={`${tech}-${pageContext.title}`}>{tech}</li>
+                      ))}
+                    </ul>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                      <a
+                        href={pageContext.githubLink}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="bg-black p-2 text-center rounded-lg text-white font-semibold"
+                      >
+                        <span className="fab fa-github fa-lg"></span> View on
+                        Github
+                      </a>
+                      <a
+                        href={pageContext.liveLink}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="bg-blue-900 p-2 text-center rounded-lg text-white font-semibold"
+                      >
+                        <span className="fa fa-play-circle fa-lg"></span> View
+                        Live
+                      </a>
                     </div>
-                  ))}
-
-                  <div className="h-64 bg-purple-500"></div>
-                  <div className="h-64 bg-purple-500"></div>
-                  <div className="h-64 bg-purple-500"></div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -105,4 +130,4 @@ const PortfolioPage = () => {
   );
 };
 
-export default PortfolioPage;
+export default PortfolioDetailsPage;
