@@ -7,7 +7,7 @@ import DescriptionIcon from "@material-ui/icons/Description";
 import AppsIcon from "@material-ui/icons/Apps";
 import ContactPhoneIcon from "@material-ui/icons/ContactPhone";
 import "../styles/site.css";
-import Nav from "../component/nav";
+import Nav from "../components/nav";
 import AppImage from "../images/webbuddy.png";
 import Breadcrumbs from "@material-ui/core/Breadcrumbs";
 

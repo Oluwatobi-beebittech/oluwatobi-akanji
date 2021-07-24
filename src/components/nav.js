@@ -2,7 +2,7 @@ import * as React from "react";
 import PassportImg from "../images/passport.jpg";
 import Avatar from "@material-ui/core/Avatar";
 import { Link } from "gatsby";
-import "../styles/site.css";
+
 const Nav = () => {
   return (
     <div

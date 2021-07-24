@@ -1,140 +1,72 @@
 import * as React from "react";
-import { Link } from "gatsby";
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import Home from "@material-ui/icons/Home";
-import PersonPinIcon from "@material-ui/icons/PersonPin";
-import DescriptionIcon from "@material-ui/icons/Description";
-import AppsIcon from "@material-ui/icons/Apps";
-import ContactPhoneIcon from "@material-ui/icons/ContactPhone";
-import Avatar from "@material-ui/core/Avatar";
 import "../styles/site.css";
+import Layout from "../components/layout";
 
 const ContactPage = () => {
   return (
-    <main className="h-screen">
-      <div className="flex inline h-full">
-        <div
-          id="mobile-nav"
-          className="hidden bg-purple-900 w-2/12 md:hidden md:w-0 overflow-y-scroll"
+    <Layout>
+      <h1 className="merienda text-4xl text-purple-900">Contact</h1>
+      <h4 className="mt-1 font-semibold">
+        I'm open to knowing about opportunities and interesting projects.
+      </h4>
+      <h4 className="mt-1 text-gray-500 font-semibold">Let's have a chat</h4>
+      <div className="my-20 text-center">
+        <p className="font-medium">
+          I'm aware that contact forms are not some people's thing.
+          <br /> Reach me swiftly via these channels{" "}
+        </p>
+        <div className="flex justify-center w-full gap-x-8 my-4">
+          <div className="transition duration-75 ease-in-out hover:border-b-2 border-purple-900">
+            <a href="">
+              <span
+                className="iconify text-5xl"
+                data-icon="logos:linkedin-icon"
+                data-inline="false"
+              ></span>
+            </a>
+          </div>
+          <div className="hover:border-b-2 border-purple-900">
+            <a
+              href="https://www.linkedin.com/in/oluwatobiakanji/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span
+                className="iconify text-5xl"
+                data-icon="logos:whatsapp"
+                data-inline="false"
+              ></span>
+            </a>
+          </div>
+          <div className="hover:border-b-2 border-purple-900">
+            <a href="mailto:akanjioluwatobishadrach@yahoo.com">
+              <span
+                className="iconify text-2xl mt-2.5"
+                data-icon="logos:yahoo"
+                data-inline="false"
+              ></span>
+            </a>
+          </div>
+        </div>
+        <p className="mb-2 font-medium">Or give me a call on </p>
+        <a
+          href="tel:+2348101089396"
+          className="p-2 bg-purple-900 text-white rounded-lg font-semibold"
         >
-          <nav className="mt-36 space-y-4">
-            <Link
-              to="/about"
-              className="text-center w-2/3 mx-auto block p-2 bg-white bg-opacity-10 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100 "
-            >
-              <Home />
-            </Link>
-            <Link
-              to="/about"
-              className="text-center w-2/3 mx-auto block p-2 bg-white bg-opacity-10 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100 "
-            >
-              <PersonPinIcon />
-            </Link>
-            <Link
-              to="/about"
-              className="text-center w-2/3 mx-auto block p-2 bg-white bg-opacity-10 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100 "
-            >
-              <DescriptionIcon />
-            </Link>
-            <Link
-              to="/about"
-              className="text-center w-2/3 mx-auto block p-2 bg-white bg-opacity-10 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100 "
-            >
-              <AppsIcon />
-            </Link>
-            <Link
-              to="/about"
-              className="text-center w-2/3 mx-auto block p-2 bg-white bg-opacity-10 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100 "
-            >
-              <ContactPhoneIcon />
-            </Link>
-          </nav>
-        </div>
-
-        <div className="w-screen flex flex-wrap content-center bg-purple-900 bg-opacity-70 md:h-screen ">
-          <button
-            id="mobile-nav-btn"
-            className="md:hidden absolute top-0 z-50 mt-2 p-2 bg-purple-100 text-purple-900 rounded-lg font-bold hover:text-purple-100 hover:bg-purple-900 "
-          >
-            <span id="mobile-nav-btn-icon" className="fa fa-bars fa-2x"></span>
-          </button>
-          <div className="absolute top-0 z-0 space-x-4 bg-purple-900 h-16 w-screen md:w-full flex justify-end">
-            <Avatar
-              alt="Oluwatobi Akanji Avatar"
-              src="https://avatars.githubusercontent.com/u/13138782?v=4"
-              className="bg-purple-900 text-white my-auto"
-            >
-              OA
-            </Avatar>
-            <p className="font-weight-bold text-white my-auto mr-4">
-              Oluwatobi Akanji
-            </p>
-          </div>
-          <div className="w-full md:w-1/2"></div>
-          <div className="w-full text-center md:w-1/2 md:text-left">
-            <h1 className="hero-text">Oluwatobi Akanji</h1>
-            <h2 className="text-2xl font-bold text-purple-100">
-              I am a Cloud Software Engineer
-            </h2>
-            <nav className="py-5 space-x-2 hidden md:block mt-5">
-              <Link
-                to="/about"
-                className="transition duration-500 ease-in-out p-2 bg-purple-900 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100 "
-              >
-                Home
-              </Link>
-              <Link
-                to="/about"
-                className="transition duration-500 ease-in-out p-2 bg-purple-900 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100"
-              >
-                About
-              </Link>
-              <Link
-                to="/about"
-                className="transition duration-500 ease-in-out p-2 bg-purple-900 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100"
-              >
-                Resume
-              </Link>
-              <Link
-                to="/about"
-                className="transition duration-500 ease-in-out p-2 bg-purple-900 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100"
-              >
-                Portfolio
-              </Link>
-              <Link
-                to="/about"
-                className="transition duration-500 ease-in-out p-2 bg-purple-900 text-white rounded-lg font-bold hover:text-purple-900 hover:bg-purple-100"
-              >
-                Contact
-              </Link>
-            </nav>
-            <div className="space-x-4 mt-5 flex justify-center md:justify-start">
-              <a
-                href="https://www.linkedin.com/in/oluwatobiakanji/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <span className="fab fa-linkedin fa-2x text-purple-200 hover:text-purple-100"></span>
-              </a>
-              <a
-                href="https://github.com/Oluwatobi-beebittech"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <span className="fab fa-github fa-2x text-purple-200 hover:text-purple-100"></span>
-              </a>
-              <a
-                href="mailto:akanjioluwatobishadrach@yahoo.com"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <span className="fa fa-envelope fa-2x text-purple-200 hover:text-purple-100"></span>
-              </a>
-            </div>
-          </div>
-        </div>
+          <span className="fa fa-phone-alt"></span>
+          &nbsp;+234 810 108 9396
+        </a>
+        <p className="my-2 font-medium">Or send me an SMS on </p>
+        <a
+          href="sms://+2348101089396?body=I%27m%20interested%20in%20speaking%20with%20you.%20Kindly%20contact%20me."
+          className="p-2 bg-blue-900 text-white rounded-lg font-semibold"
+        >
+          <span className="fa fa-sms"></span>
+          &nbsp;+234 810 108 9396
+        </a>
       </div>
-    </main>
+    </Layout>
   );
 };
 
