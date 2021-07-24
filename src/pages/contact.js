@@ -18,7 +18,11 @@ const ContactPage = () => {
         </p>
         <div className="flex justify-center w-full gap-x-8 my-4">
           <div className="transition duration-75 ease-in-out hover:border-b-2 border-purple-900">
-            <a href="">
+            <a
+              href="https://www.linkedin.com/in/oluwatobiakanji/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <span
                 className="iconify text-5xl"
                 data-icon="logos:linkedin-icon"
@@ -27,11 +31,7 @@ const ContactPage = () => {
             </a>
           </div>
           <div className="hover:border-b-2 border-purple-900">
-            <a
-              href="https://www.linkedin.com/in/oluwatobiakanji/"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://wa.link/l30v10" target="_blank" rel="noreferrer">
               <span
                 className="iconify text-5xl"
                 data-icon="logos:whatsapp"
