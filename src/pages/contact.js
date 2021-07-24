@@ -13,7 +13,9 @@ const ContactPage = () => {
       <h4 className="mt-1 text-gray-500 font-semibold">Let's have a chat</h4>
       <div className="my-20 text-center">
         <p className="font-medium">
-          I'm aware that contact forms are not some people's thing.
+          <span className="text-gray-600">
+            I'm aware that contact forms are not some people's thing.
+          </span>
           <br /> Reach me swiftly via these channels{" "}
         </p>
         <div className="flex justify-center w-full gap-x-8 my-4">

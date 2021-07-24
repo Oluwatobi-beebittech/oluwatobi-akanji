@@ -5,7 +5,7 @@
     "image": "",
     "shortDescription": "Notetaking app.",
     "description": "While browsing, there may be a need to copy a link, organize websites to surf, or make a quick to-do list; WebBuddy does all. It solves the need to take a quick note without opening another app: all is served in the browser.",
-    "techStack": ["React JS", "HTML & CSS", "Bootstrap"],
+    "techStacks": ["React JS", "HTML & CSS", "Bootstrap"],
     "githubLink": "https://github.com/Oluwatobi-beebittech/WebBuddy",
     "liveLink": "https://oluwatobi-beebittech.github.io/WebBuddy/"
   }
