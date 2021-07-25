@@ -1,14 +1,6 @@
 import * as React from "react";
 import { Link } from "gatsby";
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import Home from "@material-ui/icons/Home";
-import PersonPinIcon from "@material-ui/icons/PersonPin";
-import DescriptionIcon from "@material-ui/icons/Description";
-import AppsIcon from "@material-ui/icons/Apps";
-import ContactPhoneIcon from "@material-ui/icons/ContactPhone";
-import "../styles/site.css";
-import Nav from "../components/nav";
-import AppImage from "../images/webbuddy.png";
 import Breadcrumbs from "@material-ui/core/Breadcrumbs";
 import Layout from "../components/layout";
 
