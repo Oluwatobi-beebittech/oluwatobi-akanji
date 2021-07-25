@@ -12,6 +12,7 @@ const Nav = () => {
       <nav className="py-5 space-x-2 hidden md:block">
         <Link
           to="/"
+          activeClassName="bg-purple-100 text-purple-900"
           className="transition duration-500 ease-in-out p-2 bg-purple-900 text-white rounded-lg hover:text-purple-900 hover:bg-purple-100 "
         >
           Home

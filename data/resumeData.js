@@ -11,6 +11,9 @@ import ReactImg from "../src/images/react.png";
 import JavascriptImg from "../src/images/javascript.png";
 import BootImg from "../src/images/bootstrap.jpg";
 import TailImg from "../src/images/tailwind.png";
+import CV from "../src/docs/Oluwatobi-Akanji-Main-CV.pdf";
+
+export const pdfCV = CV;
 
 export const workExperiences = [
   {

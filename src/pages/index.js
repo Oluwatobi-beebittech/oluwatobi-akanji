@@ -51,7 +51,7 @@ const IndexPage = () => {
           </nav>
         </div>
 
-        <div className="w-screen flex flex-wrap content-center bg-purple-900 bg-opacity-70 md:w-screen md:h-screen ">
+        <div className="w-screen flex flex-wrap content-center bg-purple-900 bg-opacity-60 md:w-screen md:h-screen ">
           <button
             id="mobile-nav-btn"
             className="md:hidden absolute top-0 mt-2 p-2 bg-purple-100 text-purple-900 rounded-lg font-bold hover:text-purple-100 hover:bg-purple-900 "

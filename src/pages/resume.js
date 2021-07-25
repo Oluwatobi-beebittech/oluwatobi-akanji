@@ -9,6 +9,7 @@ import {
   workExperiences,
   technologyStacks,
   certifications,
+  pdfCV,
 } from "../../data/resumeData";
 
 const ResumePage = () => {
@@ -22,7 +23,7 @@ const ResumePage = () => {
       <p className="mt-5 text-white font-medium">
         <a
           className="p-2.5 transition duration-500 ease-in-out bg-purple-900 hover:text-purple-900 hover:bg-purple-100 rounded-lg"
-          href="#h"
+          href={pdfCV}
         >
           Download my resume <span className="fa fa-download"></span>
         </a>

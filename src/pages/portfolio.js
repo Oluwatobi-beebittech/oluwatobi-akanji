@@ -3,10 +3,9 @@ import { Link } from "gatsby";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "../styles/site.css";
 import Layout from "../components/layout";
-import {portfolios} from "../../data/portfolioData";
+import { portfolios } from "../../data/portfolioData";
 
 const PortfolioPage = () => {
-  
   return (
     <Layout>
       <h1 className="merienda text-4xl text-purple-900">Portfolio</h1>

@@ -1,5 +1,15 @@
 [
   {
+    "title": "Personal Website",
+    "slug": "oluwatobiakanji",
+    "image": "",
+    "shortDescription": "Personal portfolio website.",
+    "description": "This is my personal portfolio website. It was created to help me reach out to people swiftly and get access to opportunities that come by.",
+    "techStacks": ["Gatsby JS", "HTML & CSS", "Tailwind CSS"],
+    "githubLink": "https://github.com/Oluwatobi-beebittech/oluwatobi-akanji",
+    "liveLink": "https://oluwatobiakanji.gatsby.io"
+  },
+  {
     "title": "WebBuddy",
     "slug": "webbuddy",
     "image": "",
