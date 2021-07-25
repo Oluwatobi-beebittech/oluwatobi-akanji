@@ -9,7 +9,7 @@ exports.createPages = ({ actions: { createPage } }) => {
         image: portfolio.image,
         shortDescription: portfolio.shortDescription,
         description: portfolio.description,
-        techStack: portfolio.techStack,
+        techStacks: portfolio.techStacks,
         githubLink: portfolio.githubLink,
         liveLink: portfolio.liveLink,
       },
