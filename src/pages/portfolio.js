@@ -2,18 +2,11 @@ import * as React from "react";
 import { Link } from "gatsby";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "../styles/site.css";
-import WebBuddy from "../images/webbuddy.png";
 import Layout from "../components/layout";
+import {portfolios} from "../../data/portfolioData";
 
 const PortfolioPage = () => {
-  const portfolios = [
-    {
-      title: "WebBuddy",
-      slug: "/portfolio/webbuddy/",
-      image: WebBuddy,
-      techStacks: ["React JS", "HTML & CSS", "Bootstrap"],
-    },
-  ];
+  
   return (
     <Layout>
       <h1 className="merienda text-4xl text-purple-900">Portfolio</h1>
@@ -41,7 +34,7 @@ const PortfolioPage = () => {
                     <span className=" p-2 rounded-lg bg-purple-900 bg-opacity-50 md:bg-opacity-0 md:rounded-none md:bg-transparent md:p-0">
                       {portfolio.title} <span className="fa fa-link"></span>
                     </span>
-                    <ul className="space-x-4 mt-1 font-medium">
+                    <ul className="space-x-4 mt-1 px-2 rounded-md font-medium bg-blue-900 bg-opacity-50 md:bg-opacity-0 md:rounded-none md:bg-transparent">
                       {portfolio.techStacks.map((stack) => (
                         <li
                           key={`${portfolio.slug}-${stack}`}

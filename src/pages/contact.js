@@ -11,7 +11,7 @@ const ContactPage = () => {
         I'm open to knowing about opportunities and interesting projects.
       </h4>
       <h4 className="mt-1 text-gray-500 font-semibold">Let's have a chat</h4>
-      <div className="my-20 text-center">
+      <div className="my-10 text-center">
         <p className="font-medium">
           <span className="text-gray-600">
             I'm aware that contact forms are not some people's thing.
