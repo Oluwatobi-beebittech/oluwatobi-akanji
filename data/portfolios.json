@@ -12,7 +12,7 @@
   {
     "title": "WebBuddy",
     "slug": "webbuddy",
-    "image": "",
+    "image": "https://res.cloudinary.com/dfybu7w8o/image/upload/v1627289339/oluwatobiakanji.com/webbuddy_vrx7xt.png",
     "shortDescription": "Notetaking app.",
     "description": "While browsing, there may be a need to copy a link, organize websites to surf, or make a quick to-do list; WebBuddy does all. It solves the need to take a quick note without opening another app: all is served in the browser.",
     "techStacks": ["React JS", "HTML & CSS", "Bootstrap"],
