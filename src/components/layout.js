@@ -9,17 +9,7 @@ const Layout = (props) => {
   return (
     <main className="h-screen">
       <Helmet>
-        <script src="/mobileNav.js" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap"
-          rel="stylesheet"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
+        {/* <script src="/mobileNav.js" /> */}
         <title>Oluwatobi Akanji</title>
         <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
       </Helmet>
