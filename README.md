@@ -11,9 +11,9 @@
 
 **Personal Website**
 
-    Personal Website created using
-    - Gatsby JS
-    - Tailwind CSS
-    - HTMl & CSS
+  Personal Website created using
+  - Gatsby JS
+  - Tailwind CSS
+  - HTMl & CSS
 
     
