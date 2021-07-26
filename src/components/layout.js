@@ -3,10 +3,27 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import "../styles/site.css";
 import Nav from "./nav";
 import MobileNav from "./mobileNav";
+import { Helmet } from "react-helmet";
 
 const Layout = (props) => {
   return (
     <main className="h-screen">
+      <Helmet>
+        <script src="/mobileNav.js" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
+        <title>Oluwatobi Akanji</title>
+        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+      </Helmet>
+
       <div className="flex inline h-full">
         <MobileNav />
         <div className="w-screen flex flex-wrap content-center bg-purple-900 bg-opacity-70 md:h-screen ">

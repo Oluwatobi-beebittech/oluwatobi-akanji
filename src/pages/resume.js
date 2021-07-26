@@ -52,7 +52,11 @@ const ResumePage = () => {
               </div>
               <div className="mt-2">
                 {experience.descriptions.map((description) => (
-                  <p key={`${experience.title}-${experience.duration}`}>
+                  <p
+                    key={`${experience.title}-${
+                      experience.duration
+                    }-${description.substr(0, 5)}`}
+                  >
                     {description}
                   </p>
                 ))}
@@ -60,7 +64,11 @@ const ResumePage = () => {
 
               <ul className="inline-flex list-disc list-inside space-x-4 text-gray-600 mt-2">
                 {experience.techStacks.map((stack) => (
-                  <li key={`${experience.title}-${experience.duration}`}>
+                  <li
+                    key={`${experience.title}-${
+                      experience.duration
+                    }-${stack.substr(0, 5)}`}
+                  >
                     {stack}
                   </li>
                 ))}
