@@ -10,11 +10,9 @@
 ## :wave: Hello there.
 
 **Personal Website**
-<p>
-    Personal Website created using
+Personal Website created using
     - Gatsby JS
     - Tailwind CSS
     - HTMl & CSS
-</p>
 
     
