@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://www.oluwatobiakanji.com",
     title: "Oluwatobi Akanji",
   },
   plugins: [
@@ -10,6 +10,13 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-plugin-postcss",
     "gatsby-transformer-sharp",
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://www.oluwatobiakanji.com",
+        policy: [{ userAgent: "*", allow: "/" }],
+      },
+    },
     {
       resolve: "gatsby-source-filesystem",
       options: {
