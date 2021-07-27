@@ -54,7 +54,7 @@ const Layout = (props) => {
           rel="stylesheet"
         />
         <title>Oluwatobi Akanji</title>
-        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js" async></script>
       </Helmet>
 
       <div className="flex inline h-full">
