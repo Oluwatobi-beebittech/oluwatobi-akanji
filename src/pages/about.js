@@ -3,10 +3,15 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import "../styles/site.css";
 import Gif from "../images/oluwatobi-akanji.gif";
 import Layout from "../components/layout";
+import { Helmet } from "react-helmet";
 
 const AboutPage = () => {
   return (
     <Layout>
+      <Helmet>
+        <title>Oluwatobi Akanji - About</title>
+        <meta name="description" content="Oluwatobi Akanji Portfolio Website About Page" />
+      </Helmet>
       <h1 className="merienda text-4xl text-purple-900">
         Meet Oluwatobi Akanji
       </h1>

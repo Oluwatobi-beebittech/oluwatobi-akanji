@@ -36,7 +36,6 @@ const Layout = (props) => {
         }}
       >
         <meta name="robots" content="all" />
-        <meta name="description" content="Oluwatobi Akanji Portfolio Website" />
         <meta name="author" content="Oluwatobi Akanji" />
         <meta
           name="keywords"
@@ -53,8 +52,10 @@ const Layout = (props) => {
           href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap"
           rel="stylesheet"
         />
-        <title>Oluwatobi Akanji</title>
-        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js" async></script>
+        <script
+          src="https://code.iconify.design/1/1.0.7/iconify.min.js"
+          async
+        ></script>
       </Helmet>
 
       <div className="flex inline h-full">

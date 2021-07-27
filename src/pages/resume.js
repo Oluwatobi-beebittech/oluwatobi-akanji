@@ -11,10 +11,18 @@ import {
   certifications,
   pdfCV,
 } from "../../data/resumeData";
+import { Helmet } from "react-helmet";
 
 const ResumePage = () => {
   return (
     <Layout>
+      <Helmet>
+        <title>Oluwatobi Akanji - Resume</title>
+        <meta
+          name="description"
+          content="Oluwatobi Akanji Portfolio Website Resume Page"
+        />
+      </Helmet>
       <h1 className="merienda text-4xl text-purple-900">Resume</h1>
       <h4 className="mt-1 font-semibold">
         Over the years, I have built skills in cloud technologies and software

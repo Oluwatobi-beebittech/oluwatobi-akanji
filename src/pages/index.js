@@ -54,7 +54,7 @@ const IndexPage = () => {
           href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap"
           rel="stylesheet"
         />
-        <title>Oluwatobi Akanji</title>
+        <title>Oluwatobi Akanji - Home</title>
         <script src="https://code.iconify.design/1/1.0.7/iconify.min.js" async></script>
       </Helmet>
       <div className="flex inline h-full">
