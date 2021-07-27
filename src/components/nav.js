@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from "react";
 import PassportImg from "../images/passport.jpg";
 import Avatar from "@material-ui/core/Avatar";
 import { Link } from "gatsby";

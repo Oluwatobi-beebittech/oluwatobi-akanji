@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import Accordion from "@material-ui/core/Accordion";
 import AccordionSummary from "@material-ui/core/AccordionSummary";

@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "../styles/site.css";
 import Layout from "../components/layout";

@@ -1,4 +1,4 @@
-import * as React from "react";
+import React, { useEffect } from "react";
 import { Link } from "gatsby";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import Home from "@material-ui/icons/Home";
@@ -7,11 +7,43 @@ import DescriptionIcon from "@material-ui/icons/Description";
 import AppsIcon from "@material-ui/icons/Apps";
 import ContactPhoneIcon from "@material-ui/icons/ContactPhone";
 import "../styles/site.css";
+import { Helmet } from "react-helmet";
 
 // markup
 const IndexPage = () => {
+  useEffect(() => {
+    const handleClick = () => {
+      const mobileNavBtnIcon = document.getElementById("mobile-nav-btn-icon");
+      const mobileNav = document.getElementById("mobile-nav");
+
+      mobileNav.classList.toggle("hidden");
+      mobileNavBtnIcon.classList.toggle("fa-bars");
+      mobileNavBtnIcon.classList.toggle("fa-times");
+    };
+    const mobileNavBtn = document.getElementById("mobile-nav-btn");
+
+    mobileNavBtn.addEventListener("click", handleClick);
+
+    return () => {
+      document.removeEventListener("click", handleClick);
+    };
+  });
   return (
     <main className="h-screen" id="index-main">
+      <Helmet>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
+        <title>Oluwatobi Akanji</title>
+        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+      </Helmet>
       <div className="flex inline h-full">
         <div
           id="mobile-nav"

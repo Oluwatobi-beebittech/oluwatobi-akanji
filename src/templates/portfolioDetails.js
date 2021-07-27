@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from "react";
 import { Link } from "gatsby";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import Breadcrumbs from "@material-ui/core/Breadcrumbs";
