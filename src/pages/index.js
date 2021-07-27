@@ -8,6 +8,7 @@ import AppsIcon from "@material-ui/icons/Apps";
 import ContactPhoneIcon from "@material-ui/icons/ContactPhone";
 import "../styles/site.css";
 import { Helmet } from "react-helmet";
+import favicon from "../images/favicon.ico";
 
 // markup
 const IndexPage = () => {
@@ -30,7 +31,19 @@ const IndexPage = () => {
   });
   return (
     <main className="h-screen" id="index-main">
-      <Helmet>
+      <Helmet
+        htmlAttributes={{
+          lang: "en",
+        }}
+      >
+        <meta name="robots" content="all" />
+        <meta name="description" content="Oluwatobi Akanji Portfolio Website" />
+        <meta name="author" content="Oluwatobi Akanji" />
+        <meta
+          name="keywords"
+          content="Oluwatobi Akanji, Oluwatobi Shadrach Akanji, Akanji, Oluwatobi, Shadrach, Oluwatobi-beebittech, Laravel, Google Cloud Platform, Azure, Cloud Software Engineer"
+        />
+        <link rel="icon" href={favicon} />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link
