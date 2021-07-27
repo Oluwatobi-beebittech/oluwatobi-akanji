@@ -14,7 +14,10 @@ const PortfolioDetailsPage = ({ pageContext }) => {
           <Link to="/portfolio/" className="text-purple-900 font-medium">
             Portfolio
           </Link>
-          <Link to="/details" className="text-black font-medium">
+          <Link
+            to={`/portfolio/${pageContext.slug}/`}
+            className="text-black font-medium"
+          >
             {pageContext.title}
           </Link>
         </Breadcrumbs>

@@ -7,6 +7,7 @@ exports.createPages = ({ actions: { createPage } }) => {
       context: {
         title: portfolio.title,
         image: portfolio.image,
+        slug: portfolio.slug,
         shortDescription: portfolio.shortDescription,
         description: portfolio.description,
         techStacks: portfolio.techStacks,
