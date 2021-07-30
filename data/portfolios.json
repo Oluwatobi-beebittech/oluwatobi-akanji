@@ -1,5 +1,15 @@
 [
   {
+    "title": "Phallery",
+    "slug": "phallery",
+    "image": "https://res.cloudinary.com/dfybu7w8o/image/upload/v1627642969/oluwatobiakanji.com/phallery_zkjwqr.png",
+    "shortDescription": "African Photo Website.",
+    "description": "To celebrate Africa and showcase the continent to the world, captivating photographs does the trick. On this platform, photographers (hobbyists or professionals) upload photographs that shows the true story of the continent. Uploaded photos can be liked, loved, and commented on.",
+    "techStacks": ["Laravel","React JS", "HTML & CSS", "Bootstrap"],
+    "githubLink": "https://github.com/Oluwatobi-beebittech/phallery",
+    "liveLink": "https://phallery.herokuapp.com"
+  },
+  {
     "title": "Personal Website",
     "slug": "oluwatobiakanji",
     "image": "",
