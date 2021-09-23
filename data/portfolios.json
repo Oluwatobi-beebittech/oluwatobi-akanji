@@ -1,11 +1,21 @@
 [
   {
+    "title": "ChartsCrypto",
+    "slug": "chartscrypto",
+    "image": "https://res.cloudinary.com/dfybu7w8o/image/upload/v1632353358/oluwatobiakanji.com/crypto_fqt5g8.png",
+    "shortDescription": "Crypto Portfolio Simulator",
+    "description": "Have you ever wondered how lucrative investing in cryptocurrencies over the years might be? Sure, you can now simulate your desired portfolio to see how it fared over the years. Check out the Profit Net Loss (PNL) and check the trendlines.",
+    "techStacks": ["React JS", "HighCharts JS", "HTML & CSS", "Tailwind CSS", "Messari API"],
+    "githubLink": "https://github.com/Oluwatobi-beebittech/cryptocharts",
+    "liveLink": "https://chartscrypto.herokuapp.com"
+  },
+  {
     "title": "Phallery",
     "slug": "phallery",
     "image": "https://res.cloudinary.com/dfybu7w8o/image/upload/v1627642969/oluwatobiakanji.com/phallery_zkjwqr.png",
     "shortDescription": "African Photo Website.",
     "description": "To celebrate Africa and showcase the continent to the world, captivating photographs does the trick. On this platform, photographers (hobbyists or professionals) upload photographs that shows the true story of the continent. Uploaded photos can be liked, loved, and commented on.",
-    "techStacks": ["Laravel","React JS", "HTML & CSS", "Bootstrap"],
+    "techStacks": ["Laravel", "React JS", "HTML & CSS", "Bootstrap"],
     "githubLink": "https://github.com/Oluwatobi-beebittech/phallery",
     "liveLink": "https://phallery.herokuapp.com"
   },
