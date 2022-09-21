@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import Accordion from "@material-ui/core/Accordion";
 import AccordionSummary from "@material-ui/core/AccordionSummary";
@@ -86,23 +86,38 @@ const ResumePage = () => {
         ))}
       </div>
 
-      <div className="mt-10">
+      <div className="mt-10 space-y-2">
         <h4 className="font-bold text-lg">Technology Stack</h4>
-        <p className="text-gray-100">
+        <p className="text-gray-900">
           I have used these technologies to develop products
         </p>
-        <div className="grid grid-cols-3 gap-y-1 md:grid-cols-12 text-center">
-          {technologyStacks.map((stack) => (
-            <div className="space-y-1" key={stack.name}>
-              <img
-                src={stack.image}
-                alt={stack.name}
-                className="w-10 h-10 mx-auto"
-              />
-              <p className="font-medium">{stack.name}</p>
-            </div>
-          ))}
-        </div>
+        {
+          technologyStacks.map((stack) => (
+            <React.Fragment key={stack.techGroup}>
+            <p className="flex gap-2 items-center font-bold text-lg">
+              <span
+                className={`iconify text-3xl ${stack.iconColour}`}
+                data-icon={stack.icon}
+              ></span>
+              {stack.techGroup}
+            </p>
+            <div className="grid grid-cols-3 gap-y-1 md:grid-cols-12 text-center">
+            {
+              stack.techTools.map((tool) => (
+                <div className="space-y-1" key={tool.name}>
+                  <img
+                    src={tool.image}
+                    alt={tool.name}
+                    className="w-10 h-10 mx-auto"
+                  />
+                  <p className="font-medium">{tool.name}</p>
+                </div>
+              ))
+            }
+          </div>
+          </React.Fragment>
+          ))
+        }
       </div>
 
       <div className="mt-10">

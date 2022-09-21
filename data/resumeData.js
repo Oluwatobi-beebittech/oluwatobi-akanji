@@ -11,16 +11,34 @@ import ReactImg from "../src/images/react.png";
 import JavascriptImg from "../src/images/javascript.png";
 import BootImg from "../src/images/bootstrap.jpg";
 import TailImg from "../src/images/tailwind.png";
+import AntDesignImg from "../src/images/ant-design.png";
+import HighchartsImg from "../src/images/highcharts.png";
+import TypescriptImg from "../src/images/typescript.png";
+import NextJSImg from "../src/images/nextjs.png";
 import CV from "../src/docs/Oluwatobi-Akanji-Main-CV.pdf";
 
 export const pdfCV = CV;
 
 export const workExperiences = [
   {
+    title: "Frontend Engineer",
+    company: "Topnotch IT Solutions & A Digital Agency",
+    location: "Remote",
+    duration: "October 2021 - Present",
+    descriptions: [
+      "Created data visualisations for generating investment insights in precious metals market.",
+      "Improved asset exports by crafting a custom PDF/PNG exporter.",
+      "Developed comprehensive documentations on applications and processes.",
+      "Managed internationalisation of several charts and applications.",
+    ],
+    techStacks: ["React", "Typescript", "Highcharts", "Redux Toolkit", "LESS", "Sass"],
+    icon: "fa fa-swatchbook",
+  },
+  {
     title: "IT Infrastructure Engineer",
     company: "Steamledge Limited",
     location: "Minna, Nigeria",
-    duration: "January 2020 - Present",
+    duration: "January 2020 - September 2021",
     descriptions: [
       "Worked on the cloud architecture for a fintech project while considering billing and risks.",
       "Slashed expected user onboarding time for Steamledge learning portal from 48 hours to 2 hours.",
@@ -66,15 +84,32 @@ export const workExperiences = [
 ];
 
 export const technologyStacks = [
-  { image: LaravelImg, name: "Laravel" },
-  { image: ReactImg, name: "React JS" },
-  { image: JavascriptImg, name: "Javascript" },
-  { image: GitImg, name: "Git" },
-  { image: SqlImg, name: "MySQL" },
-  { image: HtmlImg, name: "HTML5" },
-  { image: CssImg, name: "CSS3" },
-  { image: BootImg, name: "Bootstrap" },
-  { image: TailImg, name: "Tailwind CSS" },
+  {
+    techGroup: "Frontend",
+    icon: "ant-design:rocket-twotone",
+    iconColour: "text-red-500",
+    techTools: [
+      { image: ReactImg, name: "React JS" },
+      { image: TypescriptImg, name: "Typescript" },
+      { image: NextJSImg, name: "Next JS" },
+      { image: JavascriptImg, name: "Javascript" },
+      { image: HtmlImg, name: "HTML5" },
+      { image: CssImg, name: "CSS3" },
+      { image: BootImg, name: "Bootstrap" },
+      { image: AntDesignImg, name: "Ant" },
+      { image: TailImg, name: "Tailwind CSS" },
+      { image: HighchartsImg, name: "Highcharts" },
+    ]
+  },
+  {
+    techGroup: "Backend",
+    icon: "ant-design:api-twotone",
+    iconColour: "text-blue-500",
+    techTools: [
+      { image: LaravelImg, name: "Laravel" },
+      { image: SqlImg, name: "MySQL" },
+    ]
+  }
 ];
 
 export const certifications = [
