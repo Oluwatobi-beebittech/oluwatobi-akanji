@@ -107,7 +107,7 @@ const IndexPage = () => {
           <div className="w-full text-center md:w-1/2 md:text-left">
             <h1 className="hero-text">Oluwatobi Akanji</h1>
             <h2 className="text-2xl font-bold text-purple-100">
-              I am a Cloud Software Engineer
+              I am a Software Engineer (Frontend Heavy)
             </h2>
             <nav className="py-5 space-x-2 hidden md:block mt-5">
               <Link

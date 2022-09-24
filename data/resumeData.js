@@ -31,7 +31,7 @@ export const workExperiences = [
       "Developed comprehensive documentations on applications and processes.",
       "Managed internationalisation of several charts and applications.",
     ],
-    techStacks: ["React", "Typescript", "Highcharts", "Redux Toolkit", "LESS", "Sass"],
+    techStacks: ["React", "Typescript", "Highcharts", "Redux Toolkit"],
     icon: "fa fa-swatchbook",
   },
   {

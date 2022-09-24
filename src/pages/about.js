@@ -77,7 +77,7 @@ const AboutPage = () => {
               data-icon="ant-design:build-twotone"
             ></span>
             <h4 className="font-bold">User Experience</h4>
-            <p>I increase a user's efficiency by creating intuitive applications.</p>
+            <p>I increase users' efficiency by creating intuitive applications.</p>
           </div>
           <div className="text-center rounded-lg shadow-box h-40 transition transform ease-in-out hover:scale-105">
             <span
@@ -86,7 +86,7 @@ const AboutPage = () => {
             ></span>
             <h4 className="font-bold">Frontend Development</h4>
             <p>
-              I present dynamic data insights using complex dashboards and charts.
+              I present dynamic data insights using simple dashboards and charts.
             </p>
           </div>
           <div className="text-center rounded-lg shadow-box h-40 transition transform ease-in-out hover:scale-105">
