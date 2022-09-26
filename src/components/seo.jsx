@@ -4,29 +4,29 @@ import { useSiteMetadata } from "../hooks/useSiteMetaData";
 import favicon from "../images/favicon.ico";
 
 export const Seo = ({ title, description, pathname, keywords, children }) => {
-  const { 
-    title: defaultTitle, 
-    description: defaultDescription, 
-    keywords: defaultKeyWords, 
-    author, 
-    siteUrl 
+  const {
+    title: defaultTitle,
+    description: defaultDescription,
+    keywords: defaultKeyWords,
+    author,
+    siteUrl,
   } = useSiteMetadata();
 
   const seo = {
     title: title ?? defaultTitle,
     description: description ?? defaultDescription,
-    url: `${siteUrl}${pathname ?? ''}`,
+    url: `${siteUrl}${pathname ?? ""}`,
     keywords: `${defaultKeyWords}, ${keywords} `,
   };
 
   const structuredData = {
     "@context": "https://schema.org/",
     "@type": "Person",
-    "name": "Oluwatobi Akanji",
-    "url": "https://oluwatobiakanji.com",
-    "sameAs": "https://www.linkedin.com/in/oluwatobiakanji/",
-    "jobTitle": "Software Engineer (Frontend Heavy)",
-    "email": "akanjioluwatobishadrach@yahoo.com"  
+    name: "Oluwatobi Akanji",
+    url: "https://oluwatobiakanji.com",
+    sameAs: "https://www.linkedin.com/in/oluwatobiakanji/",
+    jobTitle: "Software Engineer (Frontend Heavy)",
+    email: "akanjioluwatobishadrach@yahoo.com",
   };
 
   return (
@@ -47,8 +47,22 @@ export const Seo = ({ title, description, pathname, keywords, children }) => {
       <meta property="og:image" content={favicon} />
       <meta name="keywords" content={seo.keywords} />
       <link rel="icon" href={favicon} />
-      <Script type="application/ld+json"  dangerouslySetInnerHTML={{_html: JSON.stringify(structuredData)}}/>
+      <Script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ _html: JSON.stringify(structuredData) }}
+      />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap"
+        rel="stylesheet"
+      />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+      />
+      <Script src="https://code.iconify.design/1/1.0.7/iconify.min.js" />
       {children}
     </>
   );
-}
+};

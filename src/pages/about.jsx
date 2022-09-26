@@ -6,7 +6,6 @@ import Layout from "../components/layout";
 import { Seo } from "../components/seo";
 
 const AboutPage = () => {
-  
   return (
     <Layout>
       <h1 className="merienda text-4xl text-purple-900">
@@ -26,8 +25,9 @@ const AboutPage = () => {
               data-height="55"
             ></span>
             <p className="">
-              A <b>Software Engineer (Frontend Heavy)</b> with experience developing
-              interactive dashboards, websites, full-stack web applications, and APIs.
+              A <b>Software Engineer (Frontend Heavy)</b> with experience
+              developing interactive dashboards, websites, full-stack web
+              applications, and APIs.
             </p>
           </div>
           <div className="flex ml-5 space-x-4 mt-1">
@@ -57,7 +57,8 @@ const AboutPage = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                a digital agency <span className="fa fa-external-link-alt"></span>
+                a digital agency{" "}
+                <span className="fa fa-external-link-alt"></span>
               </a>
               .
             </p>
@@ -68,13 +69,15 @@ const AboutPage = () => {
       <div className="my-10">
         <h4 className="font-bold text-lg">What I do</h4>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-2 mb-5 md:mt-2">
-        <div className="text-center rounded-lg shadow-box h-40 transition transform ease-in-out hover:scale-105">
+          <div className="text-center rounded-lg shadow-box h-40 transition transform ease-in-out hover:scale-105">
             <span
               className="iconify mx-auto my-2 text-5xl text-green-500"
               data-icon="ant-design:build-twotone"
             ></span>
             <h4 className="font-bold">User Experience</h4>
-            <p>I increase users' efficiency by creating intuitive applications.</p>
+            <p>
+              I increase users' efficiency by creating intuitive applications.
+            </p>
           </div>
           <div className="text-center rounded-lg shadow-box h-40 transition transform ease-in-out hover:scale-105">
             <span
@@ -83,7 +86,8 @@ const AboutPage = () => {
             ></span>
             <h4 className="font-bold">Frontend Development</h4>
             <p>
-              I present dynamic data insights using simple dashboards and charts.
+              I present dynamic data insights using simple dashboards and
+              charts.
             </p>
           </div>
           <div className="text-center rounded-lg shadow-box h-40 transition transform ease-in-out hover:scale-105">
@@ -93,7 +97,8 @@ const AboutPage = () => {
             ></span>
             <h4 className="font-bold">Back-End Web Development</h4>
             <p>
-              I funnel valuable information to dashboards for visual representation.
+              I funnel valuable information to dashboards for visual
+              representation.
             </p>
           </div>
         </div>
@@ -104,9 +109,9 @@ const AboutPage = () => {
 
 export default AboutPage;
 
-export const Head = ({location}) => (
-  <Seo 
-    description="About Oluwatobi Akanji" 
+export const Head = ({ location }) => (
+  <Seo
+    description="About Oluwatobi Akanji"
     title="About"
     pathname={location.pathname}
     />

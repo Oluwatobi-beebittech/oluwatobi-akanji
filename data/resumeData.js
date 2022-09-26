@@ -2,7 +2,6 @@ import AzureAdminImg from "../src/images/azure.png";
 import AzureFunImg from "../src/images/azure-fundamentals.png";
 import GoogleImg from "../src/images/google.png";
 import JenkinsImg from "../src/images/jenkins.png";
-import GitImg from "../src/images/git.png";
 import HtmlImg from "../src/images/html.jpg";
 import CssImg from "../src/images/css3.png";
 import SqlImg from "../src/images/sql.jpg";

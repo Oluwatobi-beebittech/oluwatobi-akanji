@@ -7,7 +7,6 @@ import Layout from "../components/layout";
 import { portfolios } from "../../data/portfolioData";
 
 const PortfolioPage = () => {
-
   return (
     <Layout>
       <h1 className="merienda text-4xl text-purple-900">Portfolio</h1>
@@ -58,10 +57,10 @@ const PortfolioPage = () => {
 
 export default PortfolioPage;
 
-export const Head = ({location}) => (
-  <Seo 
-    description="Oluwatobi Akanji's Works" 
+export const Head = ({ location }) => (
+  <Seo
+    description="Oluwatobi Akanji's Works"
     title="Portfolio"
     pathname={location.pathname}
-    />
+  />
 );

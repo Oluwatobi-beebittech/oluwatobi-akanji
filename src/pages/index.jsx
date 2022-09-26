@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Link, Script } from "gatsby";
+import { Link } from "gatsby";
 import { Seo } from "../components/seo";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import Home from "@material-ui/icons/Home";
@@ -146,20 +146,4 @@ const IndexPage = () => {
 
 export default IndexPage;
 
-export const Head = () => {
-  return (
-    <Seo>
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap"
-        rel="stylesheet"
-      />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap"
-        rel="stylesheet"
-      />
-      <Script src="https://code.iconify.design/1/1.0.7/iconify.min.js" />
-    </Seo>
-  )
-}
+export const Head = () => <Seo />;

@@ -14,7 +14,6 @@ import {
 } from "../../data/resumeData";
 
 const ResumePage = () => {
-
   return (
     <Layout>
       <h1 className="merienda text-4xl text-purple-900">Resume</h1>
@@ -85,9 +84,8 @@ const ResumePage = () => {
         <p className="text-gray-900">
           I have used these technologies to develop products
         </p>
-        {
-          technologyStacks.map((stack) => (
-            <React.Fragment key={stack.techGroup}>
+        {technologyStacks.map((stack) => (
+          <React.Fragment key={stack.techGroup}>
             <p className="flex gap-2 items-center font-bold text-lg">
               <span
                 className={`iconify text-3xl ${stack.iconColour}`}
@@ -96,8 +94,7 @@ const ResumePage = () => {
               {stack.techGroup}
             </p>
             <div className="grid grid-cols-3 gap-y-1 md:grid-cols-12 text-center">
-            {
-              stack.techTools.map((tool) => (
+              {stack.techTools.map((tool) => (
                 <div className="space-y-1" key={tool.name}>
                   <img
                     src={tool.image}
@@ -106,12 +103,10 @@ const ResumePage = () => {
                   />
                   <p className="font-medium">{tool.name}</p>
                 </div>
-              ))
-            }
-          </div>
+              ))}
+            </div>
           </React.Fragment>
-          ))
-        }
+        ))}
       </div>
 
       <div className="mt-10">
@@ -226,10 +221,10 @@ const ResumePage = () => {
 
 export default ResumePage;
 
-export const Head = ({location}) => (
-  <Seo 
-    description="Oluwatobi Akanji's Resume" 
+export const Head = ({ location }) => (
+  <Seo
+    description="Oluwatobi Akanji's Resume"
     title="Resume"
     pathname={location.pathname}
-    />
+  />
 );

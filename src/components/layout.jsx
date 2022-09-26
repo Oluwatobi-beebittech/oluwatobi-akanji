@@ -1,10 +1,8 @@
 import React, { useEffect } from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "../styles/site.css";
-import favicon from "../images/favicon.ico";
 import Nav from "./nav";
 import MobileNav from "./mobileNav";
-import { Helmet } from "react-helmet";
 
 const Layout = (props) => {
   useEffect(() => {
@@ -28,36 +26,9 @@ const Layout = (props) => {
       document.removeEventListener("click", handleClick);
     };
   });
+
   return (
     <main className="h-screen">
-      <Helmet
-        htmlAttributes={{
-          lang: "en",
-        }}
-      >
-        <meta name="robots" content="all" />
-        <meta name="author" content="Oluwatobi Akanji" />
-        <meta
-          name="keywords"
-          content="Oluwatobi Akanji, Oluwatobi Shadrach Akanji, Akanji, Oluwatobi, Shadrach, Oluwatobi-beebittech, Laravel, Google Cloud Platform, Azure, Cloud Software Engineer"
-        />
-        <link rel="icon" href={favicon} />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap"
-          rel="stylesheet"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
-        <script
-          src="https://code.iconify.design/1/1.0.7/iconify.min.js"
-          async
-        ></script>
-      </Helmet>
-
       <div className="flex inline h-full">
         <MobileNav />
         <div className="w-screen flex flex-wrap content-center bg-purple-900 bg-opacity-70 md:h-screen ">

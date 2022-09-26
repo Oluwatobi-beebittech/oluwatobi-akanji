@@ -75,10 +75,10 @@ const ContactPage = () => {
 
 export default ContactPage;
 
-export const Head = ({location}) => (
-  <Seo 
-    description="Contact Oluwatobi Akanji" 
+export const Head = ({ location }) => (
+  <Seo
+    description="Contact Oluwatobi Akanji"
     title="Contact"
     pathname={location.pathname}
-    />
+  />
 );
