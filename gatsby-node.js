@@ -3,7 +3,7 @@ exports.createPages = ({ actions: { createPage } }) => {
   portfolios.forEach((portfolio) => {
     createPage({
       path: `/portfolio/${portfolio.slug}/`,
-      component: require.resolve("./src/templates/portfolioDetails.js"),
+      component: require.resolve("./src/templates/portfolioDetails.jsx"),
       context: {
         title: portfolio.title,
         image: portfolio.image,
