@@ -3,15 +3,12 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import "../styles/site.css";
 import Gif from "../images/oluwatobi-akanji.gif";
 import Layout from "../components/layout";
-import { Helmet } from "react-helmet";
+import { Seo } from "../components/seo";
 
 const AboutPage = () => {
+  
   return (
     <Layout>
-      <Helmet>
-        <title>Oluwatobi Akanji - About</title>
-        <meta name="description" content="Oluwatobi Akanji Portfolio Website About Page" />
-      </Helmet>
       <h1 className="merienda text-4xl text-purple-900">
         Meet Oluwatobi Akanji
       </h1>
@@ -55,7 +52,7 @@ const AboutPage = () => {
             <p className="">
               Currently working as a Frontend Engineer at{" "}
               <a
-                href=""
+                href="#"
                 className="font-bold text-purple-900"
                 target="_blank"
                 rel="noreferrer"
@@ -106,3 +103,11 @@ const AboutPage = () => {
 };
 
 export default AboutPage;
+
+export const Head = ({location}) => (
+  <Seo 
+    description="About Oluwatobi Akanji" 
+    title="About"
+    pathname={location.pathname}
+    />
+);

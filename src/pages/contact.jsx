@@ -1,19 +1,12 @@
 import React from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import { Seo } from "../components/seo";
 import "../styles/site.css";
 import Layout from "../components/layout";
-import { Helmet } from "react-helmet";
 
 const ContactPage = () => {
   return (
     <Layout>
-      <Helmet>
-        <title>Oluwatobi Akanji - Contact</title>
-        <meta
-          name="description"
-          content="Oluwatobi Akanji Portfolio Website Contact Page"
-        />
-      </Helmet>
       <h1 className="merienda text-4xl text-purple-900">Contact</h1>
       <h4 className="mt-1 font-semibold">
         I'm open to knowing about opportunities and interesting projects.
@@ -81,3 +74,11 @@ const ContactPage = () => {
 };
 
 export default ContactPage;
+
+export const Head = ({location}) => (
+  <Seo 
+    description="Contact Oluwatobi Akanji" 
+    title="Contact"
+    pathname={location.pathname}
+    />
+);

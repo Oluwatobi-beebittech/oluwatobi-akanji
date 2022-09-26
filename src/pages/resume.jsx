@@ -5,24 +5,18 @@ import AccordionSummary from "@material-ui/core/AccordionSummary";
 import AccordionDetails from "@material-ui/core/AccordionDetails";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import Layout from "../components/layout";
+import { Seo } from "../components/seo";
 import {
   workExperiences,
   technologyStacks,
   certifications,
   pdfCV,
 } from "../../data/resumeData";
-import { Helmet } from "react-helmet";
 
 const ResumePage = () => {
+
   return (
     <Layout>
-      <Helmet>
-        <title>Oluwatobi Akanji - Resume</title>
-        <meta
-          name="description"
-          content="Oluwatobi Akanji Portfolio Website Resume Page"
-        />
-      </Helmet>
       <h1 className="merienda text-4xl text-purple-900">Resume</h1>
       <h4 className="mt-1 font-semibold">
         Over the years, I have built skills in cloud technologies and software
@@ -231,3 +225,11 @@ const ResumePage = () => {
 };
 
 export default ResumePage;
+
+export const Head = ({location}) => (
+  <Seo 
+    description="Oluwatobi Akanji's Resume" 
+    title="Resume"
+    pathname={location.pathname}
+    />
+);

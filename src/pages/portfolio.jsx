@@ -1,18 +1,15 @@
 import React from "react";
 import { Link } from "gatsby";
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import { Seo } from "../components/seo";
 import "../styles/site.css";
 import Layout from "../components/layout";
 import { portfolios } from "../../data/portfolioData";
-import { Helmet } from "react-helmet";
 
 const PortfolioPage = () => {
+
   return (
     <Layout>
-      <Helmet>
-        <title>Oluwatobi Akanji - Portfolio</title>
-        <meta name="description" content="Oluwatobi Akanji Portfolio Website Portfolio Page" />
-      </Helmet>
       <h1 className="merienda text-4xl text-purple-900">Portfolio</h1>
       <h4 className="mt-1 font-semibold">
         Here is my portfolio showing some of my works.
@@ -60,3 +57,11 @@ const PortfolioPage = () => {
 };
 
 export default PortfolioPage;
+
+export const Head = ({location}) => (
+  <Seo 
+    description="Oluwatobi Akanji's Works" 
+    title="Portfolio"
+    pathname={location.pathname}
+    />
+);

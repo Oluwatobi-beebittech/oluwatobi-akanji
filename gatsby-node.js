@@ -14,6 +14,7 @@ exports.createPages = ({ actions: { createPage } }) => {
         githubLink: portfolio.githubLink,
         liveLink: portfolio.liveLink,
       },
+      defer: true
     });
   });
 };
