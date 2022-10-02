@@ -35,6 +35,12 @@ const Nav = () => {
           Portfolio
         </Link>
         <Link
+          to="/blog"
+          className="transition duration-500 ease-in-out p-2 bg-purple-900 text-white rounded-lg hover:text-purple-900 hover:bg-purple-100"
+        >
+          Blog
+        </Link>
+        <Link
           to="/contact"
           className="transition duration-500 ease-in-out p-2 bg-purple-900 text-white rounded-lg hover:text-purple-900 hover:bg-purple-100"
         >
