@@ -1,5 +1,12 @@
 export const portfolios = [
   {
+    title: "Stonks NFT Minter",
+    slug: "/portfolio/stonks-nft-minter/",
+    image:
+      "https://res.cloudinary.com/dfybu7w8o/image/upload/v1666910495/oluwatobiakanji.com/vbbfTuuebslkk7hc_k0yrxm.png",
+    techStacks: ["React JS", "Alchemy", "Ethereum Goerli", "Pinata"],
+  },
+  {
     title: "ChartsCrypto",
     slug: "/portfolio/chartscrypto/",
     image:

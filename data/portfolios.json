@@ -1,5 +1,15 @@
 [
   {
+    "title": "Stonks NFT Minter",
+    "slug": "stonks-nft-minter",
+    "image": "https://res.cloudinary.com/dfybu7w8o/image/upload/v1666910495/oluwatobiakanji.com/vbbfTuuebslkk7hc_k0yrxm.png",
+    "shortDescription": "NFT Minter",
+    "description": "The thought of Web3 and NFTs might have fascinated you and you want to get a quick feel. With StonksNFTMinter, you get to mint some stonks token as NFTs",
+    "techStacks": ["React JS", "Alchemy", "Ethereum Goerli", "Pinata"],
+    "githubLink": "https://github.com/Oluwatobi-beebittech/StonksNFTMinter",
+    "liveLink": "https://stonks-nft-minter.vercel.app"
+  },
+  {
     "title": "ChartsCrypto",
     "slug": "chartscrypto",
     "image": "https://res.cloudinary.com/dfybu7w8o/image/upload/v1632353358/oluwatobiakanji.com/crypto_fqt5g8.png",
