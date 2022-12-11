@@ -136,6 +136,13 @@ const IndexPage = () => {
                 <span className="fab fa-github fa-2x text-purple-200 hover:text-purple-100"></span>
               </a>
               <a
+                href="https://medium.com/@akanjioluwatobishadrach"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span className="fab fa-medium fa-2x text-purple-200 hover:text-purple-100"></span>
+              </a>
+              <a
                 href="https://stackoverflow.com/users/13601486/oluwatobi-akanji"
                 target="_blank"
                 rel="noreferrer"
