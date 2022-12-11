@@ -14,6 +14,6 @@
   Personal Website created using
   - Gatsby JS
   - Tailwind CSS
-  - HTMl & CSS
+  - HTML & CSS
 
     
