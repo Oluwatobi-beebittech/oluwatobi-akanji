@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import Breadcrumbs from "@material-ui/core/Breadcrumbs";
+import Breadcrumbs from "@mui/material/Breadcrumbs";
 import Layout from "../components/layout";
 import { Seo } from "../components/seo";
 

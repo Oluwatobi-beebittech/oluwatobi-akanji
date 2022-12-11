@@ -1,6 +1,6 @@
 import React from "react";
 import PassportImg from "../images/passport.jpg";
-import Avatar from "@material-ui/core/Avatar";
+import Avatar from "@mui/material/Avatar";
 import { Link } from "gatsby";
 
 const Nav = () => {
