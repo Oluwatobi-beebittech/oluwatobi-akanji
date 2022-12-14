@@ -31,19 +31,19 @@ const PortfolioPage = () => {
                   to={portfolio.slug}
                 >
                   <p className="mt-32 text-center">
-                    <span className=" p-2 rounded-lg bg-purple-900 bg-opacity-50 md:bg-opacity-0 md:rounded-none md:bg-transparent md:p-0">
+                    <span className="block p-2 rounded-lg bg-purple-900 bg-opacity-50 md:bg-opacity-0 md:rounded-none md:bg-transparent md:p-0">
                       {portfolio.title} <span className="fa fa-link"></span>
                     </span>
-                    <ul className="space-x-4 mt-1 px-2 rounded-md font-medium bg-blue-900 bg-opacity-50 md:bg-opacity-0 md:rounded-none md:bg-transparent">
+                    <span className="space-x-4 block mt-1 px-2 rounded-md font-medium bg-blue-900 bg-opacity-50 md:bg-opacity-0 md:rounded-none md:bg-transparent">
                       {portfolio.techStacks.map((stack) => (
-                        <li
+                        <span
                           key={`${portfolio.slug}-${stack}`}
                           className="inline"
                         >
                           {stack}
-                        </li>
+                        </span>
                       ))}
-                    </ul>
+                    </span>
                   </p>
                 </Link>
               </div>

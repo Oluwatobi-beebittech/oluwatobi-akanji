@@ -11,6 +11,7 @@ exports.createPages = ({ actions: { createPage } }) => {
         shortDescription: portfolio.shortDescription,
         description: portfolio.description,
         techStacks: portfolio.techStacks,
+        actionButtons: portfolio.actionButtons,
         githubLink: portfolio.githubLink,
         liveLink: portfolio.liveLink,
       },

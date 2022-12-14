@@ -25,6 +25,7 @@ const ResumePage = () => {
         <a
           className="p-2.5 transition duration-500 ease-in-out bg-purple-900 hover:text-purple-900 hover:bg-purple-100 rounded-lg"
           href={pdfCV}
+          download="Oluwatobi_Akanji_Resume"
         >
           Download my resume <span className="fa fa-download"></span>
         </a>

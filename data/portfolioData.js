@@ -1,5 +1,12 @@
 export const portfolios = [
   {
+    title: "Sample Book",
+    slug: "/portfolio/sample-book/",
+    image:
+      "https://res.cloudinary.com/dfybu7w8o/image/upload/v1666910495/oluwatobiakanji.com/vbbfTuuebslkk7hc_k0yrxm.png",
+    techStacks: ["Canva", "Google Docs"],
+  },
+  {
     title: "Stonks NFT Minter",
     slug: "/portfolio/stonks-nft-minter/",
     image:

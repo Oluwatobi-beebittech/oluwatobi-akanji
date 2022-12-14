@@ -1,11 +1,40 @@
 [
   {
+    "title": "Sample Book",
+    "slug": "sample-book",
+    "image": "https://res.cloudinary.com/dfybu7w8o/image/upload/v1666910495/oluwatobiakanji.com/vbbfTuuebslkk7hc_k0yrxm.png",
+    "shortDescription": "Book",
+    "description": "Sample book",
+    "techStacks": ["Canva", "Google Docs"],
+    "actionButtons": [
+      {
+        "name": "Download",
+        "iconName": "fa fa-download",
+        "link": "/sample-nc2AGzGtyC.pdf",
+        "isDownloadLink": true,
+        "downloadName": "Sample"
+      }
+    ],
+    "githubLink": "https://github.com/Oluwatobi-beebittech/StonksNFTMinter",
+    "liveLink": "https://stonks-nft-minter.vercel.app"
+  },
+  {
     "title": "Stonks NFT Minter",
     "slug": "stonks-nft-minter",
     "image": "https://res.cloudinary.com/dfybu7w8o/image/upload/v1666910495/oluwatobiakanji.com/vbbfTuuebslkk7hc_k0yrxm.png",
     "shortDescription": "NFT Minter",
     "description": "The thought of Web3 and NFTs might have fascinated you and you want to get a quick feel. With StonksNFTMinter, you get to mint some stonks token as NFTs",
     "techStacks": ["React JS", "Alchemy", "Ethereum Goerli", "Pinata"],
+    "actionButtons": [
+      {
+        "link": "https://github.com/Oluwatobi-beebittech/StonksNFTMinter",
+        "useDefaultButtonConfig": true
+      },
+      {
+        "link": "https://stonks-nft-minter.vercel.app",
+        "useDefaultButtonConfig": true
+      }
+    ],
     "githubLink": "https://github.com/Oluwatobi-beebittech/StonksNFTMinter",
     "liveLink": "https://stonks-nft-minter.vercel.app"
   },
@@ -16,6 +45,16 @@
     "shortDescription": "Crypto Portfolio Simulator",
     "description": "Have you ever wondered how lucrative investing in cryptocurrencies over the years might be? Sure, you can now simulate your desired portfolio to see how it fared over the years. Check out the Profit Net Loss (PNL) and check the trendlines.",
     "techStacks": ["React JS", "HighCharts JS", "HTML & CSS", "Tailwind CSS", "Messari API"],
+    "actionButtons": [
+      {
+        "link": "https://github.com/Oluwatobi-beebittech/cryptocharts",
+        "useDefaultButtonConfig": true
+      },
+      {
+        "link": "https://chartscrypto.herokuapp.com",
+        "useDefaultButtonConfig": true
+      }
+    ],
     "githubLink": "https://github.com/Oluwatobi-beebittech/cryptocharts",
     "liveLink": "https://chartscrypto.herokuapp.com"
   },
@@ -26,6 +65,16 @@
     "shortDescription": "African Photo Website.",
     "description": "To celebrate Africa and showcase the continent to the world, captivating photographs does the trick. On this platform, photographers (hobbyists or professionals) upload photographs that shows the true story of the continent. Uploaded photos can be liked, loved, and commented on.",
     "techStacks": ["Laravel", "React JS", "HTML & CSS", "Bootstrap"],
+    "actionButtons": [
+      {
+        "link": "https://github.com/Oluwatobi-beebittech/phallery",
+        "useDefaultButtonConfig": true
+      },
+      {
+        "link": "https://phallery.herokuapp.com",
+        "useDefaultButtonConfig": true
+      }
+    ],
     "githubLink": "https://github.com/Oluwatobi-beebittech/phallery",
     "liveLink": "https://phallery.herokuapp.com"
   },
@@ -36,6 +85,16 @@
     "shortDescription": "Personal portfolio website.",
     "description": "This is my personal portfolio website. It was created to help me reach out to people swiftly and get access to opportunities that come by.",
     "techStacks": ["Gatsby JS", "HTML & CSS", "Tailwind CSS"],
+    "actionButtons": [
+      {
+        "link": "https://github.com/Oluwatobi-beebittech/oluwatobi-akanji",
+        "useDefaultButtonConfig": true
+      },
+      {
+        "link": "https://oluwatobiakanji.gatsby.io",
+        "useDefaultButtonConfig": true
+      }
+    ],
     "githubLink": "https://github.com/Oluwatobi-beebittech/oluwatobi-akanji",
     "liveLink": "https://oluwatobiakanji.gatsby.io"
   },
@@ -46,6 +105,16 @@
     "shortDescription": "Notetaking app.",
     "description": "While browsing, there may be a need to copy a link, organize websites to surf, or make a quick to-do list; WebBuddy does all. It solves the need to take a quick note without opening another app: all is served in the browser.",
     "techStacks": ["React JS", "HTML & CSS", "Bootstrap"],
+    "actionButtons": [
+      {
+        "link": "https://github.com/Oluwatobi-beebittech/WebBuddy",
+        "useDefaultButtonConfig": true
+      },
+      {
+        "link": "https://oluwatobi-beebittech.github.io/WebBuddy/",
+        "useDefaultButtonConfig": true
+      }
+    ],
     "githubLink": "https://github.com/Oluwatobi-beebittech/WebBuddy",
     "liveLink": "https://oluwatobi-beebittech.github.io/WebBuddy/"
   }
