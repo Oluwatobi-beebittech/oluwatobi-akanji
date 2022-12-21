@@ -34,15 +34,6 @@ const ContactPage = () => {
             </a>
           </div>
           <div className="hover:border-b-2 border-purple-900">
-            <a href="https://wa.link/l30v10" target="_blank" rel="noreferrer">
-              <span
-                className="iconify text-5xl"
-                data-icon="logos:whatsapp"
-                data-inline="false"
-              ></span>
-            </a>
-          </div>
-          <div className="hover:border-b-2 border-purple-900">
             <a href="mailto:akanjioluwatobishadrach@yahoo.com">
               <span
                 className="iconify text-2xl mt-2.5"
@@ -52,22 +43,6 @@ const ContactPage = () => {
             </a>
           </div>
         </div>
-        <p className="mb-2 font-medium">Or give me a call on </p>
-        <a
-          href="tel:+2348101089396"
-          className="p-2 bg-purple-900 text-white rounded-lg font-semibold"
-        >
-          <span className="fa fa-phone-alt"></span>
-          &nbsp;+234 810 108 9396
-        </a>
-        <p className="my-2 font-medium">Or send me an SMS on </p>
-        <a
-          href="sms://+2348101089396?body=I%27m%20interested%20in%20speaking%20with%20you.%20Kindly%20contact%20me."
-          className="p-2 bg-blue-900 text-white rounded-lg font-semibold"
-        >
-          <span className="fa fa-sms"></span>
-          &nbsp;+234 810 108 9396
-        </a>
       </div>
     </Layout>
   );
