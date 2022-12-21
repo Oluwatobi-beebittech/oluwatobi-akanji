@@ -3,11 +3,12 @@ import { Script } from "gatsby";
 import { useSiteMetadata } from "../hooks/useSiteMetaData";
 import favicon from "../images/favicon.ico";
 
-export const Seo = ({ title, description, pathname, keywords, children }) => {
+export const Seo = ({ title, description, pathname, keywords, imageUrl="", children }) => {
   const {
     title: defaultTitle,
     description: defaultDescription,
     keywords: defaultKeyWords,
+    imageUrl: defaultImageUrl,
     author,
     siteUrl,
   } = useSiteMetadata();
@@ -17,6 +18,7 @@ export const Seo = ({ title, description, pathname, keywords, children }) => {
     description: description ?? defaultDescription,
     url: `${siteUrl}${pathname ?? ""}`,
     keywords: `${defaultKeyWords}, ${keywords ?? ""} `,
+    imageUrl: imageUrl ?? defaultImageUrl,
   };
 
   const structuredData = {
@@ -35,7 +37,7 @@ export const Seo = ({ title, description, pathname, keywords, children }) => {
       <meta name="robots" content="all" />
       <meta name="author" content={author} />
       <meta name="description" content={seo.description} />
-      <meta name="image" content={favicon} />
+      <meta name="image" content={seo.imageUrl} />
       <meta name="application-name" content={structuredData.name} />
       <meta name="apple-mobile-web-app-title" content={structuredData.name} />
       <meta property="og:site_name" content={structuredData.name} />
@@ -43,13 +45,13 @@ export const Seo = ({ title, description, pathname, keywords, children }) => {
       <meta property="og:description" content={seo.description} />
       <meta property="og:type" content="website" />
       <meta property="og:url" content={seo.url} />
-      <meta property="og:image" content={favicon} />
+      <meta property="og:image" content={seo.imageUrl} />
       <meta property="og:locale" content="en_GB" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={seo.title} />
       <meta name="twitter:url" content={seo.url} />
       <meta name="twitter:description" content={seo.description} />
-      <meta name="twitter:image" content={favicon} />
+      <meta name="twitter:image" content={seo.imageUrl} />
       <meta name="twitter:site" content="@AkanjiTobiS" />
       <meta name="twitter:site:id" content="3044639493" />
       <meta name="twitter:creator" content="@AkanjiTobiS" />
