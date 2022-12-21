@@ -3,7 +3,7 @@ import { Script } from "gatsby";
 import { useSiteMetadata } from "../hooks/useSiteMetaData";
 import favicon from "../images/favicon.ico";
 
-export const Seo = ({ title, description, pathname, keywords, imageUrl="", children }) => {
+export const Seo = ({ title, description, pathname, keywords, imageUrl, children }) => {
   const {
     title: defaultTitle,
     description: defaultDescription,
