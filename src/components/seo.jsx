@@ -36,12 +36,18 @@ export const Seo = ({ title, description, pathname, keywords, children }) => {
       <meta name="author" content={author} />
       <meta name="description" content={seo.description} />
       <meta name="image" content={favicon} />
+      <meta name="application-name" content={structuredData.name} />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={seo.title} />
       <meta name="twitter:url" content={seo.url} />
       <meta name="twitter:description" content={seo.description} />
       <meta name="twitter:image" content={favicon} />
+      <meta name="twitter:site" content="@AkanjiTobiS" />
+      <meta name="twitter:site:id" content="3044639493" />
+      <meta name="twitter:creator" content="@AkanjiTobiS" />
+			<meta name="twitter:creator:id" content="3044639493" />
       <meta property="og:title" content={seo.title} />
+      <meta property="og:description" content={seo.description} />
       <meta property="og:type" content="website" />
       <meta property="og:url" content={seo.url} />
       <meta property="og:image" content={favicon} />
