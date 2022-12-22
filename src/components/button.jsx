@@ -12,10 +12,12 @@ export const Button = ({
   position,
   isExternalLink = false,
   isDownloadLink = false,
+  disabled = false,
   downloadName,
 }) => {
   const colour = position === POSITION.LEFT ? "bg-black" : "bg-blue-900";
-  const buttonClassName = `${colour} p-2 text-center rounded-lg text-white font-semibold`;
+  const disabledButtonClassName = disabled ? "disabled" : "";
+  const buttonClassName = `${colour} p-2 text-center rounded-lg text-white font-semibold ${disabledButtonClassName}`;
 
   const buttonContent = (
     <>
@@ -54,6 +56,7 @@ export const Button = ({
     <a
       href={link}
       className={buttonClassName}
+      
     >
       {buttonContent}
     </a>

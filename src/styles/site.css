@@ -47,7 +47,11 @@
   width: auto;
   height: 100%;
 }
-
 .img-fit{
   object-fit: cover;
+}
+.disabled {
+  pointer-events: none;
+  cursor: not-allowed;
+  opacity: 0.6;
 }

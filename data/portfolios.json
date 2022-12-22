@@ -4,7 +4,7 @@
     "slug": "bae",
     "image": "/beyond-academic-excellence.png",
     "shortDescription": "Academic Excellence Book drawn from the experiences of Oluwatobi Akanji and Abraham Zhiri",
-    "description": "Over the years, several Christian students have grappled with attaining academic excellence in their studies; however, academic excellence seems to elude them. In this book, Beyond Academic Excellence, we, Abraham Zhiri and I (Oluwatobi Akanji), chronicle how God has helped us on the journey to academic excellence and how we applied the lessons learnt in various spheres of our lives: walk with God, work, and relationships.",
+    "description": "Over the years, several Christian students have grappled with attaining academic excellence in their studies; however, academic excellence seems to elude them. In this book, we, Abraham Zhiri and I (Oluwatobi Akanji), chronicle how God has helped us on the journey to academic excellence and how we applied the lessons learnt in various spheres of our lives: walk with God, work, and relationships.",
     "techStacks": ["Canva", "Google Docs"],
     "actionButtons": [
       {
@@ -12,7 +12,8 @@
         "iconName": "fa fa-download",
         "link": "/sample-nc2AGzGtyC.pdf",
         "isDownloadLink": true,
-        "downloadName": "Beyond_Academic_Excellence"
+        "downloadName": "Beyond_Academic_Excellence",
+        "isButtonDisabled": true
       }
     ]
   },

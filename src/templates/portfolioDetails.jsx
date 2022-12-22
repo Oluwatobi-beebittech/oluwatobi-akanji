@@ -5,6 +5,7 @@ import Breadcrumbs from "@mui/material/Breadcrumbs";
 import Layout from "../components/layout";
 import { Seo } from "../components/seo";
 import { Button, POSITION } from "../components/button";
+import "../styles/site.css";
 
 const PortfolioDetailsPage = ({ pageContext }) => {
   const defaultButtonConfig = {
@@ -75,6 +76,7 @@ const PortfolioDetailsPage = ({ pageContext }) => {
                 const {
                   isExternalLink,
                   isDownloadLink,
+                  isButtonDisabled,
                   downloadName,
                   iconName,
                   name,
@@ -91,6 +93,7 @@ const PortfolioDetailsPage = ({ pageContext }) => {
                     link={link}
                     name={name}
                     position={buttonPosition}
+                    disabled={isButtonDisabled}
                   />
                 );
               })}
