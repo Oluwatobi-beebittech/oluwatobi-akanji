@@ -2,8 +2,7 @@ export const portfolios = [
   {
     title: "Sample Book",
     slug: "/portfolio/sample-book/",
-    image:
-      "https://res.cloudinary.com/dfybu7w8o/image/upload/v1666910495/oluwatobiakanji.com/vbbfTuuebslkk7hc_k0yrxm.png",
+    image: "/beyond-academic-excellence.png",
     techStacks: ["Canva", "Google Docs"],
   },
   {

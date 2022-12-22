@@ -23,7 +23,7 @@ const PortfolioPage = () => {
               <img
                 src={portfolio.image}
                 alt={portfolio.title}
-                className="w-full h-full"
+                className="w-full h-full img-fit"
               />
               <div className="transition ease-in-out duration-75 bg-purple-900 bg-opacity-25 hover:bg-opacity-70 text-white md:text-black hover:text-white w-full h-full relative -mt-64">
                 <Link
