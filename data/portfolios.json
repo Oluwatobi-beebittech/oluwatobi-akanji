@@ -2,7 +2,7 @@
   {
     "title": "Sample Book",
     "slug": "sample-book",
-    "image": "https://res.cloudinary.com/dfybu7w8o/image/upload/v1666910495/oluwatobiakanji.com/vbbfTuuebslkk7hc_k0yrxm.png",
+    "image": "/beyond-academic-excellence.png",
     "shortDescription": "Book",
     "description": "Sample book",
     "techStacks": ["Canva", "Google Docs"],
@@ -14,9 +14,7 @@
         "isDownloadLink": true,
         "downloadName": "Sample"
       }
-    ],
-    "githubLink": "https://github.com/Oluwatobi-beebittech/StonksNFTMinter",
-    "liveLink": "https://stonks-nft-minter.vercel.app"
+    ]
   },
   {
     "title": "Stonks NFT Minter",
@@ -34,9 +32,7 @@
         "link": "https://stonks-nft-minter.vercel.app",
         "useDefaultButtonConfig": true
       }
-    ],
-    "githubLink": "https://github.com/Oluwatobi-beebittech/StonksNFTMinter",
-    "liveLink": "https://stonks-nft-minter.vercel.app"
+    ]
   },
   {
     "title": "ChartsCrypto",
@@ -54,9 +50,7 @@
         "link": "https://chartscrypto.herokuapp.com",
         "useDefaultButtonConfig": true
       }
-    ],
-    "githubLink": "https://github.com/Oluwatobi-beebittech/cryptocharts",
-    "liveLink": "https://chartscrypto.herokuapp.com"
+    ]
   },
   {
     "title": "Phallery",
@@ -74,9 +68,7 @@
         "link": "https://phallery.herokuapp.com",
         "useDefaultButtonConfig": true
       }
-    ],
-    "githubLink": "https://github.com/Oluwatobi-beebittech/phallery",
-    "liveLink": "https://phallery.herokuapp.com"
+    ]
   },
   {
     "title": "Personal Website",
@@ -94,9 +86,7 @@
         "link": "https://oluwatobiakanji.gatsby.io",
         "useDefaultButtonConfig": true
       }
-    ],
-    "githubLink": "https://github.com/Oluwatobi-beebittech/oluwatobi-akanji",
-    "liveLink": "https://oluwatobiakanji.gatsby.io"
+    ]
   },
   {
     "title": "WebBuddy",
@@ -114,8 +104,6 @@
         "link": "https://oluwatobi-beebittech.github.io/WebBuddy/",
         "useDefaultButtonConfig": true
       }
-    ],
-    "githubLink": "https://github.com/Oluwatobi-beebittech/WebBuddy",
-    "liveLink": "https://oluwatobi-beebittech.github.io/WebBuddy/"
+    ]
   }
 ]

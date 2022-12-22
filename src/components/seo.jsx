@@ -30,7 +30,7 @@ export const Seo = ({ title, description, pathname, keywords, imageUrl, children
     jobTitle: "Software Engineer (Frontend Heavy)",
     email: "akanjioluwatobishadrach@yahoo.com",
   };
-
+  
   return (
     <>
       <title>{seo.title}</title>

@@ -22,6 +22,7 @@ const PortfolioDetailsPage = ({ pageContext }) => {
     description,
     shortDescription,
     slug,
+    image,
     techStacks,
     title,
   } = pageContext;
@@ -41,7 +42,7 @@ const PortfolioDetailsPage = ({ pageContext }) => {
         </Breadcrumbs>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="flex justify-center">
-            <img className="my-auto" alt={`${title} Demo`} src="" />
+            <img className="my-auto" alt={`${title} Demo`} src={image} />
           </div>
           <div className="space-y-4">
             <h4 className="font-bold text-2xl text-black">{title}</h4>
@@ -108,5 +109,6 @@ export const Head = ({ pageContext, location }) => (
     description={pageContext.description}
     title={pageContext.title}
     pathname={location.pathname}
+    imageUrl={pageContext.image}
   />
 );
