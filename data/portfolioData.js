@@ -1,7 +1,7 @@
 export const portfolios = [
   {
-    title: "Sample Book",
-    slug: "/portfolio/sample-book/",
+    title: "Beyond Academic Excellence",
+    slug: "/portfolio/bae/",
     image: "/beyond-academic-excellence.png",
     techStacks: ["Canva", "Google Docs"],
   },
