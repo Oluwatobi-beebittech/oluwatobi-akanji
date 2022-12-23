@@ -112,6 +112,6 @@ export const Head = ({ pageContext, location }) => (
     description={pageContext.description}
     title={pageContext.title}
     pathname={location.pathname}
-    imageUrl={pageContext.image}
+    imageUrl={pageContext?.seoImage ?? pageContext.image}
   />
 );
