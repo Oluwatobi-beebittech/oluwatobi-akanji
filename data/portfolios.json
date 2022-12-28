@@ -10,10 +10,9 @@
       {
         "name": "Download",
         "iconName": "fa fa-download",
-        "link": "/sample-nc2AGzGtyC.pdf",
+        "link": "/Beyond_Academic_Excellence.pdf",
         "isDownloadLink": true,
-        "downloadName": "Beyond_Academic_Excellence",
-        "isButtonDisabled": true
+        "downloadName": "Beyond Academic Excellence"
       }
     ]
   },
