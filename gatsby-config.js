@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     author: "Oluwatobi Akanji",
-    siteUrl: "https://www.oluwatobiakanji.com",
+    siteUrl: "https://oluwatobiakanji.com",
     title: "Oluwatobi Akanji - Home",
     description: "Oluwatobi Akanji Portfolio Website",
     imageUrl: "https://res.cloudinary.com/dfybu7w8o/image/upload/v1628247814/ybz9ckfkxlkrrsumojb2.jpg",
