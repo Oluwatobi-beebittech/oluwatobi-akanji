@@ -58,6 +58,7 @@ export const Seo = ({ title, description, pathname, keywords, imageUrl, children
 			<meta name="twitter:creator:id" content="3044639493" />
       <meta name="keywords" content={seo.keywords} />
       <link rel="icon" href={favicon} />
+      <link rel="canonical" href={seo.url} />
       <Script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ _html: JSON.stringify(structuredData) }}
