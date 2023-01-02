@@ -6,7 +6,7 @@
     "shortDescription": "Laravel Package for Modulr Authentication",
     "description": "Modulr which handles business payments as a service provides an authentication flow for security headers. However, the authentication sample examples neither includes PHP nor Laravel. This Laravel composer package should aid any Laravel developer to get started with Modulr API quickly and provide insight for any PHP developer.",
     "techStacks": ["Laravel", "Composer Package"],
-    "keywords": ["Modulr", "Modulr Authentication Header", "Laravel Modulr Authentication Header Package", "Modulr Laravel Example"],
+    "keywords": ["Modulr", "Modulr Authentication Header", "Laravel Modulr Authentication Header Package", "Modulr Laravel Example", "Laravel Modulr Package"],
     "actionButtons": [
       {
         "link": "https://github.com/Oluwatobi-beebittech/laravel-modulr-auth",
