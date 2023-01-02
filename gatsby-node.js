@@ -12,7 +12,8 @@ exports.createPages = ({ actions: { createPage } }) => {
         shortDescription: portfolio.shortDescription,
         description: portfolio.description,
         techStacks: portfolio.techStacks,
-        actionButtons: portfolio.actionButtons
+        actionButtons: portfolio.actionButtons,
+        keywords: portfolio.keywords
       },
       defer: true
     });

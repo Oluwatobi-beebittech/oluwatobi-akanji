@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     author: "Oluwatobi Akanji",
     siteUrl: "https://oluwatobiakanji.com",
-    title: "Oluwatobi Akanji - Home",
+    title: "Oluwatobi Akanji",
     description: "Oluwatobi Akanji Portfolio Website",
     imageUrl: "https://res.cloudinary.com/dfybu7w8o/image/upload/v1628247814/ybz9ckfkxlkrrsumojb2.jpg",
     keywords: "Oluwatobi Akanji, Oluwatobi Shadrach Akanji, Akanji, Oluwatobi, Shadrach, Oluwatobi-beebittech, React, Typescript, Laravel, Software Engineer, Frontend Developer, React Developer, Typescript Developer",

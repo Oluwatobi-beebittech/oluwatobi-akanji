@@ -113,5 +113,6 @@ export const Head = ({ pageContext, location }) => (
     title={pageContext.title}
     pathname={location.pathname}
     imageUrl={pageContext?.seoImage ?? pageContext.image}
+    keywords={pageContext.keywords}
   />
 );

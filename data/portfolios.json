@@ -6,6 +6,7 @@
     "shortDescription": "Laravel Package for Modulr Authentication",
     "description": "Modulr which handles business payments as a service provides an authentication flow for security headers. However, the authentication sample examples neither includes PHP nor Laravel. This Laravel composer package should aid any Laravel developer to get started with Modulr API quickly and provide insight for any PHP developer.",
     "techStacks": ["Laravel", "Composer Package"],
+    "keywords": ["Modulr", "Modulr Authentication Header", "Laravel Modulr Authentication Header Package", "Modulr Laravel Example"],
     "actionButtons": [
       {
         "link": "https://github.com/Oluwatobi-beebittech/laravel-modulr-auth",
@@ -15,7 +16,8 @@
         "link": "https://packagist.org/packages/oluwatobiakanji/laravel-modulr-auth",
         "name": "View on Packagist",
         "iconName": "fa fa-play-circle",
-        "isDownloadLink": false
+        "isDownloadLink": false,
+        "isExternalLink": true
       }
     ]
   },
@@ -26,6 +28,7 @@
     "shortDescription": "Academic Excellence Book drawn from the experiences of Abraham Zhiri and I, Oluwatobi Akanji",
     "description": "Over the years, several Christian students have grappled with attaining academic excellence in their studies; however, academic excellence seems to elude them. In this book, we, Abraham Zhiri and I (Oluwatobi Akanji), chronicle how God has helped us on the journey to academic excellence and how we applied the lessons learnt in various spheres of our lives: walk with God, work, and relationships.",
     "techStacks": ["Canva", "Google Docs"],
+    "keywords": ["Beyond Academic Excellence", "Christian Book on Academic Excellence", "Academic Excellence"],
     "actionButtons": [
       {
         "name": "Download",
@@ -43,6 +46,7 @@
     "shortDescription": "NFT Minter",
     "description": "The thought of Web3 and NFTs might have fascinated you and you want to get a quick feel. With StonksNFTMinter, you get to mint some stonks token as NFTs",
     "techStacks": ["React JS", "Alchemy", "Ethereum Goerli", "Pinata"],
+    "keywords": ["NFT Minter"],
     "actionButtons": [
       {
         "link": "https://github.com/Oluwatobi-beebittech/StonksNFTMinter",
@@ -61,6 +65,7 @@
     "shortDescription": "Crypto Portfolio Simulator",
     "description": "Have you ever wondered how lucrative investing in cryptocurrencies over the years might be? Sure, you can now simulate your desired portfolio to see how it fared over the years. Check out the Profit Net Loss (PNL) and check the trendlines.",
     "techStacks": ["React JS", "HighCharts JS", "HTML & CSS", "Tailwind CSS", "Messari API"],
+    "keywords": ["Messari API", "Highcharts"],
     "actionButtons": [
       {
         "link": "https://github.com/Oluwatobi-beebittech/cryptocharts",
@@ -79,6 +84,7 @@
     "shortDescription": "African Photo Website.",
     "description": "To celebrate Africa and showcase the continent to the world, captivating photographs does the trick. On this platform, photographers (hobbyists or professionals) upload photographs that shows the true story of the continent. Uploaded photos can be liked, loved, and commented on.",
     "techStacks": ["Laravel", "React JS", "HTML & CSS", "Bootstrap"],
+    "keywords": ["African Photo Gallery"],
     "actionButtons": [
       {
         "link": "https://github.com/Oluwatobi-beebittech/phallery",
@@ -97,6 +103,7 @@
     "shortDescription": "Personal portfolio website.",
     "description": "This is my personal portfolio website. It was created to help me reach out to people swiftly and get access to opportunities that come by.",
     "techStacks": ["Gatsby JS", "HTML & CSS", "Tailwind CSS"],
+    "keywords": [],
     "actionButtons": [
       {
         "link": "https://github.com/Oluwatobi-beebittech/oluwatobi-akanji",
@@ -115,6 +122,7 @@
     "shortDescription": "Notetaking app.",
     "description": "While browsing, there may be a need to copy a link, organize websites to surf, or make a quick to-do list; WebBuddy does all. It solves the need to take a quick note without opening another app: all is served in the browser.",
     "techStacks": ["React JS", "HTML & CSS", "Bootstrap"],
+    "keywords": ["Notetaking app"],
     "actionButtons": [
       {
         "link": "https://github.com/Oluwatobi-beebittech/WebBuddy",
