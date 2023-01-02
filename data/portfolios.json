@@ -1,5 +1,25 @@
 [
   {
+    "title": "Laravel Package for Modulr Authentication",
+    "slug": "laravel-modulr-auth",
+    "image": "https://res.cloudinary.com/dfybu7w8o/image/upload/v1672656062/oluwatobiakanji.com/laravel_plus_modulr_rect_r93jxb.png",
+    "shortDescription": "Laravel Package for Modulr Authentication",
+    "description": "Modulr which handles business payments as a service provides an authentication flow for security headers. However, the authentication sample examples neither includes PHP nor Laravel. This Laravel composer package should aid any Laravel developer to get started with Modulr API quickly and provide insight for any PHP developer.",
+    "techStacks": ["Laravel", "Composer Package"],
+    "actionButtons": [
+      {
+        "link": "https://github.com/Oluwatobi-beebittech/laravel-modulr-auth",
+        "useDefaultButtonConfig": true
+      },
+      {
+        "link": "https://packagist.org/packages/oluwatobiakanji/laravel-modulr-auth",
+        "name": "View on Packagist",
+        "iconName": "fa fa-play-circle",
+        "isDownloadLink": false
+      }
+    ]
+  },
+  {
     "title": "Beyond Academic Excellence",
     "slug": "bae",
     "image": "/beyond-academic-excellence.png",

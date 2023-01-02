@@ -1,5 +1,12 @@
 export const portfolios = [
   {
+    title: "Laravel Package for Modulr Authentication",
+    slug: "/portfolio/laravel-modulr-auth/",
+    image:
+      "https://res.cloudinary.com/dfybu7w8o/image/upload/v1672656062/oluwatobiakanji.com/laravel_plus_modulr_rect_r93jxb.png",
+    techStacks: ["Laravel", "Composer Package"],
+  },
+  {
     title: "Beyond Academic Excellence",
     slug: "/portfolio/bae/",
     image: "/beyond-academic-excellence.png",
