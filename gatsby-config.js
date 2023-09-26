@@ -14,6 +14,7 @@ module.exports = {
     "gatsby-plugin-postcss",
     "gatsby-transformer-sharp",
     "gatsby-plugin-sitemap",
+    "gatsby-plugin-netlify",
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
