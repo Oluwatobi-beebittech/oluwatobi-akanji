@@ -1,2 +1,7 @@
-  [[plugins]]
-  package = "@netlify/plugin-gatsby"
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[build]
+command = "next build"
+publish = ".next"
+functions = "netlify/functions"
