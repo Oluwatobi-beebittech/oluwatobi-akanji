@@ -22,14 +22,16 @@
         "name": "next"
       }
     ],
-    "baseUrl": "src/",
+    "baseUrl": "./src",
     "paths": {
-      "@/components/*": ["components/*"],
-      "@/theme/*": ["theme/*"]
+      "@/components": ["components"],
+      "@/lib": ["lib"],
+      "@/theme": ["theme"]
     }
   },
   "include": [
     "next-env.d.ts",
+    "styled.d.ts",
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts",
